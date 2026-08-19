@@ -1,10 +1,3 @@
-Tôi đã đối chiếu lại **Quyết định số 39/QĐ-SKHCN ngày 03/7/2025** và toàn bộ Quy chế làm việc kèm theo. Quy chế xác định chế độ Thủ trưởng, trách nhiệm tập thể lãnh đạo, trách nhiệm Giám đốc/Phó Giám đốc, quan hệ với xã/phường, thời hạn 05–10 ngày làm việc, chế độ họp, xử lý văn bản đến, trình ký, thẩm quyền ký và chế độ báo cáo.     
-
-Dưới đây là bản hoàn thiện để đặt tại:
-
-`01_thong_tin_sokhcn/quy_che_lam_viec.md`
-
-````md
 # QUY CHẾ LÀM VIỆC
 ## SỞ KHOA HỌC VÀ CÔNG NGHỆ TỈNH TÂY NINH
 
