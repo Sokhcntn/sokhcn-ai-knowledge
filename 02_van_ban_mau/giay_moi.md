@@ -1,10 +1,3 @@
-Tôi đã đối chiếu 05 Giấy mời anh/chị vừa tải lên. Bộ mẫu này bao phủ khá tốt các tình huống thực tế của Sở: **mời họp thẩm định kinh phí nhiệm vụ KH&CN**, **mời Hội đồng xét đặt hàng**, **mời họp lấy ý kiến thẩm định dự án**, **mời làm việc với cơ quan chuyên môn**, và **mời họp Ban Giám đốc/giao ban nội bộ**. Các mẫu cho thấy phần thân Giấy mời thay đổi khá linh hoạt theo mục đích, nhưng các trường cốt lõi luôn xoay quanh **thành phần – chủ trì – thời gian – địa điểm – hình thức – nội dung – tài liệu – yêu cầu chuẩn bị**.     
-
-Dưới đây là bản hoàn thiện cho:
-
-`02_van_ban_mau/giay_moi.md`
-
-````md
 # MẪU VÀ QUY TẮC SOẠN GIẤY MỜI
 ## SỞ KHOA HỌC VÀ CÔNG NGHỆ TỈNH TÂY NINH
 
