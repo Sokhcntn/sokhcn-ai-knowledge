@@ -1,0 +1,900 @@
+---
+title: "Kho dữ liệu chứng cứ Nghị quyết 57 - Tây Ninh: sơ kết và báo cáo tháng 6-9/2026"
+description: "Dữ liệu tổng hợp có chỉ dẫn nguồn và trang PDF, tối ưu truy xuất dẫn chứng bằng RAG"
+scope: "5 báo cáo Tỉnh ủy, UBND và Tổ Giúp việc Ban Chỉ đạo tỉnh Tây Ninh"
+compiled_on: "2026-10-19"
+document_type: "curated-evidence-knowledge-base"
+source_count: 5
+fact_count: 103
+citation_format: "[Sxx, trang N]"
+language: vi
+---
+
+# KHO DỮ LIỆU CÓ DẪN CHỨNG: THỰC HIỆN NGHỊ QUYẾT 57 TẠI TÂY NINH (6–9/2026)
+
+> **Tính chất:** Cơ sở tri thức để AI/RAG *tra cứu và trích dẫn*. Đây không phải báo cáo chính thức mới ban hành. Mỗi số liệu phải đi kèm kỳ thống kê, phạm vi, nguồn và trang PDF. Báo cáo tháng sau không tự động thay thế những số liệu nói về thời kỳ khác.
+
+## 1. Quy tắc đọc và trích dẫn cho RAG
+
+1. Trích dẫn theo cú pháp **`[S05, tr.19]`**, trong đó `S05` tra tại **Mục 2**. Trang là **thứ tự trang PDF tính từ 1**, kể cả trang ký số/đóng dấu nếu có.
+2. Dùng nguyên số liệu, đơn vị, ngày chốt và cách gọi cơ quan trong bản nguồn. Phân biệt *số giao*, *số đang thực hiện*, *số hoàn thành*, *số đề xuất*, *số dự toán*, *số phân bổ* và *số giải ngân*.
+3. **Không cộng dồn báo cáo tháng** nếu số liệu là lũy kế. Chỉ so sánh khi có cùng mẫu số, địa bàn và khái niệm chỉ tiêu; nếu khác phạm vi thì báo chênh lệch theo từng nguồn, không suy diễn tăng/giảm thành quả thực.
+4. Những trường hợp `cần đối chiếu` là tín hiệu kiểm tra chất lượng dữ liệu, không phải kết luận văn bản sai. Với bản 158-BC/TU và báo cáo tháng 7 có lớp chữ OCR lỗi, đối chiếu trực tiếp trang PDF trước khi trích lời nguyên văn.
+5. Các số liệu phản ánh *thời điểm báo cáo*, không phải trạng thái hiện tại (19/10/2026). Mọi câu trả lời RAG phải thể hiện ngày chốt hoặc kỳ báo cáo.
+6. Không coi tên tệp tin là căn cứ duy nhất để xác định số ký hiệu văn bản; ưu tiên đối chiếu trang đầu PDF. **Không sử dụng các đường dẫn website trích xuất bị lỗi ký tự OCR**.
+
+## 2. Danh mục tài liệu nguồn (provenance)
+
+| Mã | Văn bản / ký hiệu nhận diện | Nội dung và kỳ báo cáo | Tên tệp PDF gốc | Trang PDF |
+|---|---|---|---|---:|
+| <a id="s01"></a>**S01** | 158-BC/TU; Ban Thường vụ Tỉnh ủy Tây Ninh | Báo cáo sau 1 năm 6 tháng triển khai; 2026-06-19 | `1. 158 BC-TU_01 nam 6 thang.pdf` | 173 |
+| <a id="s02"></a>**S02** | 557-BC-CQTT (theo tên tệp; trang đầu để trống số ký hiệu); Cơ quan thường trực Ban Chỉ đạo UBND tỉnh | Báo cáo tháng 6 và nhiệm vụ tháng 7; 2026-06 (kết quả); báo cáo lập khoảng đầu tháng 7 | `2. 557-BC-CQTT (Tháng 6).pdf` | 19 |
+| <a id="s03"></a>**S03** | 3846/BC-UBND (theo trang đầu OCR; tên tệp 3816); Ủy ban nhân dân tỉnh Tây Ninh | Báo cáo kết quả tháng 7, nhiệm vụ tháng 8; 2026-08-11 (ngày trong bản OCR, cần đối chiếu) | `3. 3816_BC-UBND_11-08-2026_ (Thang 7).pdf` | 18 |
+| <a id="s04"></a>**S04** | 4135/BC-TGV (trang đầu; tên tệp có BC-UBND); Tổ Giúp việc Ban Chỉ đạo tỉnh | Báo cáo tháng 8, nhiệm vụ tháng 9; 2026-09-03 | `4. 4135_BC-UBND_03-09-2026_( Tháng 8).pdf` | 21 |
+| <a id="s05"></a>**S05** | 4489/BC-TGV (trang đầu; tên tệp có BC-UBND); Tổ Giúp việc Ban Chỉ đạo tỉnh | Báo cáo tháng 9, nhiệm vụ tháng 10; 2026-09-29 | `5. 4489_BC-UBND_29-09-2026_BC NQ57 (thang 9).pdf` | 25 |
+
+**Cảnh báo metadata:** `S02` tên tệp ghi 557-BC-CQTT nhưng bản đọc được có dòng số văn bản trống. `S03` tên tệp bắt đầu 3816 trong khi số trên trang đầu được máy trích đọc là 3846/BC-UBND. `S04` và `S05` có tên tệp BC-UBND nhưng trang đầu PDF ghi BC-TGV. Các dấu vết này được giữ nguyên, không tự ý sửa số ký hiệu.
+
+## 3. Tóm tắt diễn biến có đối chiếu nguồn
+
+### 3.1. Chuyển biến theo tiến độ nhiệm vụ
+
+| Chỉ số cùng phạm vi | Chốt 26/6 | Chốt 20/8 | Chốt 20/9 | Cách hiểu |
+|---|---|---|---|---|
+| Kế hoạch 35-KH/TU - 150 nhiệm vụ | 31 hoàn thành /119 đang làm [S02, tr.2] | 46 /104 [S04, tr.3] | 96 /54 [S05, tr.3] | Chỉ số lũy kế theo cùng KH; không cộng số hoàn thành từng tháng |
+| Nhiệm vụ Trung ương - 274 | Không trích được chuỗi tương đương trong bản tháng 6 | 169 hoàn thành /105 đang làm [S04, tr.2] | 170 /104 [S05, tr.3] | Tập giao 274 khác 150 nhiệm vụ cấp tỉnh |
+| 100 ngày xử lý điểm nghẽn - 47 nhiệm vụ | Chưa áp dụng theo cùng kỳ | 47 nhiệm vụ, 7 điểm nghẽn ưu tiên [S04, tr.2] | 18 hoàn thành /29 đang làm [S05, tr.3] | Mốc 100 ngày không gộp chung với các kết luận chỉ đạo khác |
+| Bài toán lớn do đơn vị đề xuất | 234 [S02, tr.3] | 237 [S04, tr.3] | 237 [S05, tr.3] | Tổng đề xuất, không phải 6 bài toán ưu tiên cấp tỉnh |
+
+### 3.2. Thay đổi được báo cáo trong chuyển đổi số và dịch vụ công
+
+| Nội dung | Tháng 6 | Tháng 8 | Tháng 9 | Nhận xét sử dụng dữ liệu |
+|---|---|---|---|---|
+| Hệ thống số và CSDL | 138/182 nền tảng/CSDL [S02, tr.6] | 46 nền tảng +160 CSDL [S04, tr.9] | 45 nền tảng +169 CSDL [S05, tr.11] | **Khác cách phân loại**, không tính tỷ lệ tăng giữa ba kỳ |
+| DVC trực tuyến toàn trình | 1.528/1.851 [S02, tr.6-7] | 1.510/1.851 [S04, tr.9] | 1.510/1.851 [S05, tr.12] | Số tuyệt đối có điều chỉnh; không suy diễn nguyên nhân |
+| Số hóa hộ tịch | 3.672.687 [S02, tr.7] | 3.672.687 [S04, tr.11] | 3.969.791 [S05, tr.14] | Chốt kỳ và định nghĩa đơn vị dữ liệu trước khi so sánh |
+| Hồ sơ sức khỏe điện tử | Không dùng dữ liệu không khớp kỳ | 3.014.916/3.178.703 (94,85%) [S04, tr.11] | 3.075.971/3.178.703 (96,76%) [S05, tr.15] | Hai kỳ cùng mẫu số được báo cáo |
+| 5G và cáp quang | 100% xã/phường, dân số 91%, cáp quang hộ 97,87% [S02, tr.6] | 100% xã/phường, 36/55 khu/cụm CN, dân số 91%, cáp quang 97,87% [S04, tr.8] | Các chỉ số chính tương đương tháng 8 [S05, tr.10] | Cần phân biệt có 5G tại xã và phủ sóng toàn bộ địa bàn xã |
+| Giải ngân vốn đầu tư công | Chưa phát sinh đến 12/6 [S02, tr.12] | 95,767 tỷ / 13,8% đến 17/8 [S04, tr.15] | 132,282 tỷ / 18,97% đến 20/9 [S05, tr.19] | Số lũy kế theo thời điểm, cần kiểm tra mẫu số ngân sách |
+
+## 4. Sổ dữ kiện kiểm chứng (fact cards)
+
+> **Máy RAG nên ưu tiên đoạn này.** Mỗi bản ghi có mã ổn định, chủ đề, kỳ, kết luận đã được biên tập, và chuỗi tham chiếu PDF. Không xóa chuỗi trích dẫn khi lấy nội dung trả lời.
+
+### Điều hành nhiệm vụ
+
+#### `L01` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-06-26
+- **Dữ kiện:** Kế hoạch 35-KH/TU năm 2026 giao 62 chỉ tiêu và 150 nhiệm vụ; đã hoàn thành 31/150, đang thực hiện 119/150; báo cáo không ghi nhiệm vụ trễ hạn.
+- **Nguồn:** [S02, tr.2](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-06-26` `L01`
+
+#### `L02` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-08-20
+- **Dữ kiện:** Theo Kế hoạch 35-KH/TU: hoàn thành 46/150 nhiệm vụ, đang thực hiện 104/150; không có nhiệm vụ trễ hạn.
+- **Nguồn:** [S04, tr.3](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-08-20` `L02`
+
+#### `L03` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-09-20
+- **Dữ kiện:** Theo Kế hoạch 35-KH/TU: hoàn thành 96/150 nhiệm vụ, đang thực hiện 54/150; không có nhiệm vụ trễ hạn.
+- **Nguồn:** [S05, tr.3](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-09-20` `L03`
+
+#### `L04` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-08-20
+- **Dữ kiện:** Nhiệm vụ Trung ương giao: đã hoàn thành 169/274, đang thực hiện 105/274 (99 nhiệm vụ thường xuyên, 6 nhiệm vụ trong hạn); 1 nhiệm vụ gần hạn; không có nhiệm vụ trễ hạn.
+- **Nguồn:** [S04, tr.2](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-08-20` `L04`
+
+#### `L05` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-09-20
+- **Dữ kiện:** Nhiệm vụ Trung ương giao: hoàn thành 170/274, đang thực hiện 104/274 (99 nhiệm vụ thường xuyên, 5 trong hạn); có 1 nhiệm vụ gần hạn; không có nhiệm vụ trễ hạn.
+- **Nguồn:** [S05, tr.3](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-09-20` `L05`
+
+#### `L06` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-06-26
+- **Dữ kiện:** Kết luận 03-KL/BCĐ: đã hoàn thành 6/12 nhiệm vụ, đang thực hiện 6/12.
+- **Nguồn:** [S02, tr.3](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-06-26` `L06`
+
+#### `L07` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-08-20
+- **Dữ kiện:** Kết luận 03-KL/BCĐ: đã hoàn thành 8/12, đang thực hiện 4/12.
+- **Nguồn:** [S04, tr.3](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-08-20` `L07`
+
+#### `L08` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-06-26
+- **Dữ kiện:** Kết luận 04-KL/BCĐ: đã hoàn thành 19/48 nhiệm vụ, đang thực hiện 29/48; đây là phạm vi được thống kê ở báo cáo tháng 6, không được gộp với tập 11 nhiệm vụ được nêu ở báo cáo sau.
+- **Nguồn:** [S02, tr.3](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-06-26` `L08`
+
+#### `L09` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-08-20
+- **Dữ kiện:** Kết luận 06-KL/BCĐ: hoàn thành 4/23, đang thực hiện 19/23 nhiệm vụ.
+- **Nguồn:** [S04, tr.3](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-08-20` `L09`
+
+#### `L10` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-09-20
+- **Dữ kiện:** Kết luận 06-KL/BCĐ: hoàn thành 20/23, đang thực hiện 3/23 nhiệm vụ.
+- **Nguồn:** [S05, tr.3](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-09-20` `L10`
+
+#### `L11` — Điều hành nhiệm vụ
+- **Kỳ/thời điểm:** 2026-09-20
+- **Dữ kiện:** Kết luận 07-KL/BCĐ: hoàn thành 12/17, đang thực hiện 5/17 nhiệm vụ.
+- **Nguồn:** [S05, tr.3](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Điều hành nhiệm vụ` `2026-09-20` `L11`
+
+### Kế hoạch hành động 100 ngày
+
+#### `L12` — Kế hoạch hành động 100 ngày
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Tỉnh cụ thể hóa kế hoạch 100 ngày thành 47 nhiệm vụ và xác định 7 điểm nghẽn trọng tâm cần giải quyết.
+- **Nguồn:** [S04, tr.2](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Kế hoạch hành động 100 ngày` `2026-08` `L12`
+
+#### `L13` — Kế hoạch hành động 100 ngày
+- **Kỳ/thời điểm:** 2026-09-20
+- **Dữ kiện:** Theo Quyết định 88/QĐ-BCĐCP, hoàn thành 18/47 nhiệm vụ; đang thực hiện 29/47, báo cáo không ghi nhiệm vụ chậm, muộn, trễ hạn.
+- **Nguồn:** [S05, tr.3](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Kế hoạch hành động 100 ngày` `2026-09-20` `L13`
+
+### Quản trị thực hiện
+
+#### `L14` — Quản trị thực hiện
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 nhấn mạnh chuyển từ đôn đốc chung sang kiểm đếm tiến độ, phát hiện điểm nghẽn và yêu cầu sản phẩm đầu ra, gắn trách nhiệm người đứng đầu.
+- **Nguồn:** [S05, tr.20](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Quản trị thực hiện` `2026-09` `L14`
+
+### Bài toán lớn
+
+#### `B01` — Bài toán lớn
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** 15/15 sở, ngành; 7 cơ quan cấp tỉnh; 96/96 xã, phường đề xuất tổng cộng 234 “bài toán lớn”; báo cáo nhận xét nhiều đề xuất chưa phù hợp.
+- **Nguồn:** [S02, tr.3](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Bài toán lớn` `2026-06` `B01`
+
+#### `B02` — Bài toán lớn
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Đã ghi nhận tổng cộng 237 bài toán lớn do 126 đơn vị đề xuất.
+- **Nguồn:** [S04, tr.3](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Bài toán lớn` `2026-08` `B02`
+
+#### `B03` — Bài toán lớn
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo ghi 237 bài toán lớn do 126 đơn vị đề xuất, bao gồm 24 cơ quan cấp tỉnh, 96 xã phường và 6 đơn vị viện, trường, doanh nghiệp.
+- **Nguồn:** [S05, tr.3](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Bài toán lớn` `2026-09` `B03`
+
+#### `B04` — Bài toán lớn
+- **Kỳ/thời điểm:** 2026
+- **Dữ kiện:** Sáu hướng ưu tiên cấp tỉnh: (1) kinh tế số/GRDP; (2) tín chỉ carbon/phát thải; (3) hội nhập chuỗi giá trị, Halal/FTA; (4) năng lượng mặt trời, tái tạo; (5) hệ sinh thái đổi mới sáng tạo và khởi nghiệp; (6) AI tự chủ và dữ liệu lớn trong điều hành công.
+- **Nguồn:** [S01, tr.26](#s01); [S02, tr.3-4](#s02); [S05, tr.4-5](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Bài toán lớn` `2026` `B04`
+
+### Kinh tế số
+
+#### `B05` — Kinh tế số
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Kế hoạch 2596/KH-UBND ngày 10/6/2026 triển khai giải pháp nâng tỷ trọng kinh tế số trong GRDP giai đoạn 2026–2030 và năm 2026.
+- **Nguồn:** [S05, tr.3-4](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Kinh tế số` `2026-06` `B05`
+
+#### `B06` — Kinh tế số
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Nhiệm vụ khoa học cấp tỉnh nghiên cứu giải pháp phát triển kinh tế số Tây Ninh đến 2030, tầm nhìn 2045; Học viện Công nghệ Bưu chính Viễn thông chủ trì; kinh phí NSNN 1.978.609.000 đồng, thời gian 18 tháng.
+- **Nguồn:** [S05, tr.4](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Kinh tế số` `2026-09` `B06`
+
+### Carbon
+
+#### `B07` — Carbon
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Tỉnh xây dựng dự thảo kế hoạch phát triển tín chỉ carbon gắn quản lý phát thải; có hợp tác và trao đổi hồ sơ ý tưởng dự án với Jizoku Inc., chưa đồng nghĩa thị trường tín chỉ carbon đã vận hành.
+- **Nguồn:** [S05, tr.4](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Carbon` `2026-09` `B07`
+
+### Halal/FTA
+
+#### `B08` — Halal/FTA
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Trường Đại học Tân Tạo được lựa chọn thực hiện nhiệm vụ “Xây dựng Hệ sinh thái Halal gắn với chuỗi cung ứng nông sản bền vững tại tỉnh Tây Ninh”; tỉnh chuẩn bị kế hoạch hội nhập sâu chuỗi giá trị toàn cầu.
+- **Nguồn:** [S05, tr.4](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Halal/FTA` `2026-09` `B08`
+
+### Năng lượng
+
+#### `B09` — Năng lượng
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Bài toán số 4 về năng lượng mặt trời và năng lượng tái tạo đang xây dựng đề cương, hoàn thiện dự thảo chương trình giai đoạn 2026–2030.
+- **Nguồn:** [S05, tr.5](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Năng lượng` `2026-09` `B09`
+
+### Đổi mới sáng tạo
+
+#### `B10` — Đổi mới sáng tạo
+- **Kỳ/thời điểm:** 2026-07-29
+- **Dữ kiện:** Kế hoạch 3595/KH-UBND về phát triển hệ thống đổi mới sáng tạo, hệ sinh thái khởi nghiệp sáng tạo tỉnh Tây Ninh giai đoạn 2026–2030 đã được ban hành.
+- **Nguồn:** [S05, tr.5](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Đổi mới sáng tạo` `2026-07-29` `B10`
+
+### AI tự chủ
+
+#### `B11` — AI tự chủ
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Kế hoạch 2592/KH-UBND ngày 10/6/2026 xác định định hướng xây dựng hệ sinh thái AI tự chủ, ứng dụng AI và dữ liệu lớn hỗ trợ chỉ đạo điều hành và tác nghiệp nhà nước đến 2030; dự án giai đoạn 1 được triển khai thủ tục.
+- **Nguồn:** [S02, tr.4](#s02); [S05, tr.5](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `AI tự chủ` `2026-06` `B11`
+
+#### `B12` — AI tự chủ
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo nói tỉnh tập trung triển khai xây dựng hệ sinh thái AI tự chủ dùng chung, ưu tiên cơ quan hành chính và cấp xã; không đủ căn cứ khẳng định hệ thống đã triển khai hoàn tất trên toàn tỉnh.
+- **Nguồn:** [S05, tr.8-9](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `AI tự chủ` `2026-09` `B12`
+
+### Nền tảng và cơ sở dữ liệu
+
+#### `C01` — Nền tảng và cơ sở dữ liệu
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Báo cáo sơ kết 1 năm 6 tháng ghi đã triển khai 138/182 nền tảng số và CSDL (75,8%); 81/105 do bộ ngành triển khai và 57/77 do tỉnh xây dựng.
+- **Nguồn:** [S01, tr.1-2](#s01)
+- **RAG tags:** `NQ57` `Tây Ninh` `Nền tảng và cơ sở dữ liệu` `2026-06` `C01`
+
+#### `C02` — Nền tảng và cơ sở dữ liệu
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Báo cáo tháng 6 cũng ghi “tập trung xây dựng 182 nền tảng số, CSDL (đã có 138, chưa có 44)”.
+- **Nguồn:** [S02, tr.6](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Nền tảng và cơ sở dữ liệu` `2026-06` `C02`
+
+#### `C03` — Nền tảng và cơ sở dữ liệu
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Báo cáo tháng 8 ghi 46 nền tảng số và 160 CSDL được tập trung xây dựng, tách: 14 nền tảng/112 CSDL của bộ ngành, 32 nền tảng/48 CSDL của tỉnh.
+- **Nguồn:** [S04, tr.9](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Nền tảng và cơ sở dữ liệu` `2026-08` `C03`
+
+#### `C04` — Nền tảng và cơ sở dữ liệu
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 ghi 45 nền tảng số và 169 CSDL, trong đó bộ ngành 14 nền tảng/118 CSDL; tỉnh 31 nền tảng/51 CSDL.
+- **Nguồn:** [S05, tr.11](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Nền tảng và cơ sở dữ liệu` `2026-09` `C04`
+
+#### `C05` — Nền tảng và cơ sở dữ liệu
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Trong 45 nền tảng đã có: 39 được cập nhật đầy đủ, 4 không yêu cầu cập nhật, 2 đang nâng cấp; trong 124 CSDL đã có: 115 cập nhật đầy đủ, 9 chưa cập nhật.
+- **Nguồn:** [S04, tr.9](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Nền tảng và cơ sở dữ liệu` `2026-08` `C05`
+
+#### `C06` — Nền tảng và cơ sở dữ liệu
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Trong 44 nền tảng số đã có: 38 cập nhật đầy đủ, 4 không yêu cầu cập nhật, 2 đang nâng cấp; trong 127 CSDL đã có: 118 cập nhật đầy đủ, 9 chưa cập nhật.
+- **Nguồn:** [S05, tr.11](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Nền tảng và cơ sở dữ liệu` `2026-09` `C06`
+
+### Dữ liệu mở
+
+#### `C07` — Dữ liệu mở
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo ghi 572 bộ dữ liệu dùng chung, trong đó 195 bộ dữ liệu mở; cổng dữ liệu mở data.tayninh.gov.vn.
+- **Nguồn:** [S05, tr.12](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu mở` `2026-09` `C07`
+
+### Dữ liệu chia sẻ
+
+#### `C08` — Dữ liệu chia sẻ
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Hệ thống cơ sở dữ liệu tỉnh gồm nền tảng kho dữ liệu, LGSP và các CSDL chuyên ngành; báo cáo xác nhận hoàn thành nhiệm vụ xây dựng hệ thống kết nối CSDL quốc gia và có cơ chế chia sẻ dữ liệu công cho khu vực tư.
+- **Nguồn:** [S05, tr.12](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu chia sẻ` `2026-09` `C08`
+
+### Dữ liệu cấp xã
+
+#### `C09` — Dữ liệu cấp xã
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Có 36 nền tảng và 79 cơ sở dữ liệu có dữ liệu cấp xã; đây là phân loại phạm vi dữ liệu, không phải 115 cơ sở dữ liệu đã hoàn thành mới.
+- **Nguồn:** [S05, tr.12](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu cấp xã` `2026-09` `C09`
+
+### Hạ tầng viễn thông
+
+#### `H01` — Hạ tầng viễn thông
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Báo cáo sơ kết cho biết từ đầu 2025 đến 6 tháng đầu 2026, vị trí trạm thu phát sóng di động tăng từ 3.890 lên 5.125; vị trí 5G từ 245 lên 1.240; mạng 5G hiện diện tại 100% xã phường.
+- **Nguồn:** [S01, tr.2](#s01)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hạ tầng viễn thông` `2026-06` `H01`
+
+#### `H02` — Hạ tầng viễn thông
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Báo cáo tháng 6 ghi tỷ lệ phủ sóng 5G theo dân số 91%, 100% xã phường đã có 5G; tỷ lệ hộ gia đình có Internet cáp quang 97,87%.
+- **Nguồn:** [S02, tr.6](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hạ tầng viễn thông` `2026-06` `H02`
+
+#### `H03` — Hạ tầng viễn thông
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** 5G hiện diện tại 100% xã phường; phủ sóng 36/55 khu, cụm công nghiệp hoạt động; phủ sóng theo dân số 91%; tỷ lệ hộ gia đình kết nối cáp quang 97,87%.
+- **Nguồn:** [S04, tr.8](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hạ tầng viễn thông` `2026-08` `H03`
+
+#### `H04` — Hạ tầng viễn thông
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 vẫn ghi 100% xã phường đã triển khai 5G, 36/55 khu, cụm công nghiệp hoạt động, 91% dân số, 97,87% hộ gia đình kết nối Internet cáp quang.
+- **Nguồn:** [S05, tr.10](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hạ tầng viễn thông` `2026-09` `H04`
+
+### Thiết bị đầu cuối
+
+#### `H05` — Thiết bị đầu cuối
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Trong kế hoạch tháo gỡ điểm nghẽn đầu cuối: dự kiến mua 3.277 máy tính thay thế máy không đạt cấu hình hoặc hết khấu hao; đây là số mua sắm được nêu trong chỉ đạo, không coi là máy đã mua.
+- **Nguồn:** [S05, tr.10](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thiết bị đầu cuối` `2026-09` `H05`
+
+### Thiết bị một cửa
+
+#### `H06` — Thiết bị một cửa
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Rà soát 3.471 máy tính đang dùng giải quyết TTHC; số có nhu cầu mua mới 1.547 máy, nâng cấp 180 máy; số thiết bị khác 3.810 thiết bị (2.439 máy in, 1.088 máy scan, 235 photocopy, 48 máy hủy).
+- **Nguồn:** [S05, tr.11](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thiết bị một cửa` `2026-09` `H06`
+
+### Thủ tục hành chính
+
+#### `T01` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Toàn tỉnh có 1.851 TTHC: 1.528 trực tuyến toàn trình, 323 một phần; 1.423 thuộc thẩm quyền cấp tỉnh và 428 thuộc cấp xã.
+- **Nguồn:** [S02, tr.6-7](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-06` `T01`
+
+#### `T02` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** 1.851 TTHC: 1.510 dịch vụ công trực tuyến toàn trình (81,6%) và 341 một phần (18,4%).
+- **Nguồn:** [S04, tr.9](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-08` `T02`
+
+#### `T03` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** 1.851 TTHC: 1.510 toàn trình (81,6%), 341 một phần (18,4%); 1.423 cấp tỉnh và 428 cấp xã.
+- **Nguồn:** [S05, tr.12](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-09` `T03`
+
+#### `T04` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-06-25
+- **Dữ kiện:** Lũy kế từ 1/1 đến 25/6 theo Hệ thống TTHC tỉnh: tiếp nhận 602.548 hồ sơ; đã giải quyết 570.322; quá hạn 394 hồ sơ (báo cáo ghi 0,06%).
+- **Nguồn:** [S02, tr.7](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-06-25` `T04`
+
+#### `T05` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Trong kỳ báo cáo tháng 8, hệ thống tỉnh tiếp nhận 88.003 hồ sơ; đã giải quyết 53.927; có 419 hồ sơ quá hạn (0,77% theo báo cáo).
+- **Nguồn:** [S04, tr.10](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-08` `T05`
+
+#### `T06` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Trong kỳ báo cáo tháng 9, hệ thống tỉnh tiếp nhận 66.230 hồ sơ; đã giải quyết 40.039; quá hạn 328 hồ sơ (0,81% theo báo cáo).
+- **Nguồn:** [S05, tr.13](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-09` `T06`
+
+#### `T07` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Lũy kế tới kỳ báo cáo tháng 9 của hệ thống tỉnh: tiếp nhận 724.540, đã giải quyết 698.128; quá hạn 1.308 hồ sơ (0,18% theo báo cáo).
+- **Nguồn:** [S05, tr.13](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-09` `T07`
+
+#### `T08` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Hệ thống TTHC Bộ, ngành: trong kỳ tiếp nhận 15.401 hồ sơ, đã giải quyết 10.266, quá hạn 163 (1,58%); lũy kế 88.340 tiếp nhận, 76.344 giải quyết, 1.279 quá hạn (1,67%).
+- **Nguồn:** [S05, tr.13](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-09` `T08`
+
+#### `T09` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Tỉnh công bố 1.851/1.851 thủ tục có thể thực hiện không phụ thuộc địa giới hành chính trong phạm vi cấp tỉnh; tỷ lệ tái sử dụng thông tin, dữ liệu số hóa 99,66%.
+- **Nguồn:** [S04, tr.9](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-08` `T09`
+
+#### `T10` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Công bố 1.066/1.066 TTHC đủ điều kiện liên quan doanh nghiệp được cung cấp trực tuyến; tỷ lệ khai thác, tái sử dụng dữ liệu số hóa ghi 99,66%.
+- **Nguồn:** [S05, tr.13](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-09` `T10`
+
+#### `T11` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Đến kỳ tháng 9, đã công bố cắt giảm 10% thời gian giải quyết đối với 28/83 TTHC (26 cấp tỉnh, 2 cấp xã); tăng 4 so với tháng 8.
+- **Nguồn:** [S05, tr.13](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-09` `T11`
+
+#### `T12` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Thủ tục thuộc quản lý xuất nhập cảnh cắt thời gian từ 16 xuống 8 ngày làm việc; báo cáo dự kiến tiết kiệm hơn 2,452 tỷ đồng.
+- **Nguồn:** [S05, tr.13](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-09` `T12`
+
+#### `T13` — Thủ tục hành chính
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Kết quả xử lý phản ánh, kiến nghị trên hệ thống từ 1/6: tổng 432, xử lý xong 405, đang trong hạn 27; tỷ lệ hài lòng 96,06% theo báo cáo.
+- **Nguồn:** [S05, tr.14](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Thủ tục hành chính` `2026-09` `T13`
+
+### Dữ liệu hộ tịch
+
+#### `D01` — Dữ liệu hộ tịch
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Báo cáo tháng 6: đã số hóa 3.672.687 dữ liệu hộ tịch, ghi 100%.
+- **Nguồn:** [S02, tr.7](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu hộ tịch` `2026-06` `D01`
+
+#### `D02` — Dữ liệu hộ tịch
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Báo cáo tháng 8: 3.672.687 dữ liệu hộ tịch đã số hóa.
+- **Nguồn:** [S04, tr.11](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu hộ tịch` `2026-08` `D02`
+
+#### `D03` — Dữ liệu hộ tịch
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9: 3.969.791 dữ liệu hộ tịch đã số hóa.
+- **Nguồn:** [S05, tr.14](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu hộ tịch` `2026-09` `D03`
+
+### Dữ liệu đất đai
+
+#### `D04` — Dữ liệu đất đai
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Dữ liệu 2.980.493/3.023.321 thửa đất được xây dựng (98,58%); đã đối soát xác thực với CSDL dân cư 2.300.552/2.980.493 thửa (77,18%).
+- **Nguồn:** [S02, tr.7](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu đất đai` `2026-06` `D04`
+
+#### `D05` — Dữ liệu đất đai
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Báo cáo tháng 8 ghi 300.820 thửa Nhóm 1 đạt tiêu chí “đúng - đủ - sạch - sống”, xác thực 291.262 trường hợp; khác tập chỉ số tổng thửa đất tháng 6.
+- **Nguồn:** [S04, tr.11](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu đất đai` `2026-08` `D05`
+
+#### `D06` — Dữ liệu đất đai
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 ghi 1.499.689 thửa Nhóm 1 đạt tiêu chí “đúng - đủ - sạch - sống”, đối soát xác thực 106.410 trường hợp; phạm vi/đơn vị “trường hợp” cần kiểm tra trước khi đối chiếu với tháng 8.
+- **Nguồn:** [S05, tr.14](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu đất đai` `2026-09` `D06`
+
+### BHXH/BHYT
+
+#### `D07` — BHXH/BHYT
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Đã xác thực 2.544.747/2.552.527 thông tin người tham gia BHXH, BHYT, BHTN (99,70%).
+- **Nguồn:** [S02, tr.7](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `BHXH/BHYT` `2026-06` `D07`
+
+#### `D08` — BHXH/BHYT
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Đã xác thực 2.615.830/2.626.076 người tham gia BHXH, BHYT (tỷ lệ nêu trong báo cáo).
+- **Nguồn:** [S04, tr.11](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `BHXH/BHYT` `2026-08` `D08`
+
+#### `D09` — BHXH/BHYT
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Đã xác thực 2.643.413/2.649.253 thông tin người tham gia (99,78% theo báo cáo).
+- **Nguồn:** [S05, tr.15](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `BHXH/BHYT` `2026-09` `D09`
+
+### Dữ liệu văn bằng
+
+#### `D10` — Dữ liệu văn bằng
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Làm sạch 13.885/13.885 trường hợp văn bằng, chứng chỉ; báo cáo ghi 100%.
+- **Nguồn:** [S02, tr.7](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Dữ liệu văn bằng` `2026-06` `D10`
+
+### Hồ sơ sức khỏe điện tử
+
+#### `Y01` — Hồ sơ sức khỏe điện tử
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Đã tạo lập 3.014.916/3.178.703 hồ sơ sức khỏe điện tử, đạt 94,85%.
+- **Nguồn:** [S04, tr.11](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hồ sơ sức khỏe điện tử` `2026-08` `Y01`
+
+#### `Y02` — Hồ sơ sức khỏe điện tử
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Đã tạo lập 3.075.971/3.178.703 hồ sơ sức khỏe điện tử, đạt 96,76%.
+- **Nguồn:** [S05, tr.15](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hồ sơ sức khỏe điện tử` `2026-09` `Y02`
+
+### Khám sức khỏe
+
+#### `Y03` — Khám sức khỏe
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Báo cáo tháng 8 ghi khám sức khỏe toàn dân 1.251.036/3.194.187 người, đạt 39,2%.
+- **Nguồn:** [S04, tr.11](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Khám sức khỏe` `2026-08` `Y03`
+
+#### `Y04` — Khám sức khỏe
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 ghi khám 1.844.557/2.128.099 người, đạt 86,7%; mẫu số khác tháng 8, không suy diễn mức tăng thuần.
+- **Nguồn:** [S05, tr.15](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Khám sức khỏe` `2026-09` `Y04`
+
+### VNeID
+
+#### `Y05` — VNeID
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** 2.311.001/2.625.076 công dân từ 14 tuổi được cấp định danh điện tử mức 2 (88,04%); 19.664/20.300 tài khoản định danh tổ chức đã cấp (96,87%).
+- **Nguồn:** [S02, tr.8](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `VNeID` `2026-06` `Y05`
+
+#### `Y06` — VNeID
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Định danh điện tử công dân từ 14 tuổi được ghi đạt 88,67%; đã tiếp nhận 23.653 doanh nghiệp, hợp tác xã đăng ký định danh tổ chức, cấp 21.079 tài khoản.
+- **Nguồn:** [S04, tr.11](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `VNeID` `2026-08` `Y06`
+
+#### `Y07` — VNeID
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Định danh điện tử từ 14 tuổi được ghi đạt 89,09%; tiếp nhận 23.979 hồ sơ tổ chức doanh nghiệp/hợp tác xã, cấp 21.341 tài khoản.
+- **Nguồn:** [S05, tr.15](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `VNeID` `2026-09` `Y07`
+
+#### `Y08` — VNeID
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Đã tích hợp 504.946 trường hợp giấy phép, giấy tờ trên VNeID theo báo cáo tháng 9.
+- **Nguồn:** [S05, tr.15](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `VNeID` `2026-09` `Y08`
+
+### Đổi mới sáng tạo
+
+#### `I01` — Đổi mới sáng tạo
+- **Kỳ/thời điểm:** 2026-03-18
+- **Dữ kiện:** Trung tâm Đổi mới sáng tạo tỉnh (giai đoạn 1) khánh thành ngày 18/3/2026; đến kỳ tháng 9 có 3 startup được hỗ trợ đặt văn phòng đại diện miễn phí.
+- **Nguồn:** [S01, tr.4](#s01); [S05, tr.5](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Đổi mới sáng tạo` `2026-03-18` `I01`
+
+#### `I02` — Đổi mới sáng tạo
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** UBND tỉnh có chủ trương tại Công văn 16262/UBND-VHXH ngày 07/9/2026 về nghiên cứu vận hành TNIC theo phương thức PPP, giao chuẩn bị đề án; không phải quyết định xác nhận hợp đồng PPP đã ký.
+- **Nguồn:** [S05, tr.6](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Đổi mới sáng tạo` `2026-09` `I02`
+
+#### `I03` — Đổi mới sáng tạo
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Đã tổ chức 5 cụm đào tạo kiến thức KH&CN và đổi mới sáng tạo cho 441 lượt cán bộ của 96 xã/phường.
+- **Nguồn:** [S05, tr.7](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Đổi mới sáng tạo` `2026-09` `I03`
+
+#### `I04` — Đổi mới sáng tạo
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Cuộc thi Robocon tỉnh Tây Ninh lần I có 223 đội đăng ký, 22 đội đạt giải cấp tỉnh; báo cáo ghi 13 đội lọt chung kết cuộc thi cấp toàn quốc.
+- **Nguồn:** [S05, tr.7](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Đổi mới sáng tạo` `2026-09` `I04`
+
+#### `I05` — Đổi mới sáng tạo
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Báo cáo sơ kết 1 năm 6 tháng ghi 30 doanh nghiệp KH&CN, khoảng 60 doanh nghiệp có dự án khởi nghiệp sáng tạo; OCR của báo cáo này cần đối chiếu bản PDF khi trích chính thức.
+- **Nguồn:** [S01, tr.22](#s01)
+- **RAG tags:** `NQ57` `Tây Ninh` `Đổi mới sáng tạo` `2026-06` `I05`
+
+### UAV
+
+#### `U01` — UAV
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Trước thời điểm giữa năm, tỉnh đã thành lập Tổ công tác, phê duyệt đề cương chiến lược UAV theo Quyết định 7733/QĐ-UBND ngày 07/5/2026.
+- **Nguồn:** [S01, tr.2-3](#s01); [S02, tr.5](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `UAV` `2026-06` `U01`
+
+#### `U02` — UAV
+- **Kỳ/thời điểm:** 2026-08-21
+- **Dữ kiện:** Quyết định 15393/QĐ-UBND ngày 21/8/2026 phê duyệt Chiến lược phát triển hệ sinh thái phương tiện không người lái Tây Ninh giai đoạn 2026–2030, tầm nhìn 2035.
+- **Nguồn:** [S04, tr.6](#s04); [S05, tr.8](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `UAV` `2026-08-21` `U02`
+
+#### `U03` — UAV
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Tỉnh đang cụ thể hóa chiến lược UAV bằng kế hoạch hành lang bay, tập huấn, khu liên hợp công nghệ UAV, nền tảng dữ liệu và thử nghiệm ứng dụng; nhiều phần ở giai đoạn chuẩn bị.
+- **Nguồn:** [S05, tr.8](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `UAV` `2026-09` `U03`
+
+#### `U04` — UAV
+- **Kỳ/thời điểm:** 2026-09-22
+- **Dữ kiện:** Kế hoạch 4887/KH-UBND ngày 22/9/2026 tổ chức tập huấn quản lý, ứng dụng phương tiện không người lái và kinh tế tầm thấp; dự kiến tháng 10/2026.
+- **Nguồn:** [S05, tr.8](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `UAV` `2026-09-22` `U04`
+
+### Đào tạo kỹ năng số
+
+#### `N01` — Đào tạo kỹ năng số
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Đào tạo trên nền tảng Bình dân học vụ số: 3 lớp hơn 3.500 học viên và 2 khóa hơn 8.800 học viên, theo báo cáo tháng 6.
+- **Nguồn:** [S02, tr.11](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Đào tạo kỹ năng số` `2026-06` `N01`
+
+#### `N02` — Đào tạo kỹ năng số
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 tiếp tục ghi 2 khóa Bình dân học vụ số cho hơn 8.800 học viên và 3 lớp bồi dưỡng hơn 3.500 học viên; không cộng hai lần vào tổng số người duy nhất.
+- **Nguồn:** [S05, tr.16](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Đào tạo kỹ năng số` `2026-09` `N02`
+
+### An toàn thông tin
+
+#### `N03` — An toàn thông tin
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Tiếp nhận 109/212 hồ sơ đề xuất phê duyệt cấp độ; đã phê duyệt 43 hồ sơ theo báo cáo tháng 8.
+- **Nguồn:** [S04, tr.13](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `An toàn thông tin` `2026-08` `N03`
+
+#### `N04` — An toàn thông tin
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Tiếp nhận 114 hồ sơ đề xuất cấp độ, đã phê duyệt 63/212 hệ thống thông tin; hai đại lượng “hồ sơ đề xuất” và “hệ thống” khác nhau.
+- **Nguồn:** [S05, tr.18](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `An toàn thông tin` `2026-09` `N04`
+
+#### `N05` — An toàn thông tin
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Kiểm tra tại cơ sở phát hiện vấn đề về hệ điều hành/phần mềm diệt mã độc chưa bản quyền, mật khẩu lưu trên trình duyệt, USB chưa bảo đảm quy định, tài khoản dùng chung.
+- **Nguồn:** [S02, tr.9](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `An toàn thông tin` `2026-06` `N05`
+
+#### `N06` — An toàn thông tin
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 vẫn đặt yêu cầu nâng cao giám sát an toàn mạng, thực hiện sao lưu và đánh giá an toàn hệ thống.
+- **Nguồn:** [S05, tr.17-18](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `An toàn thông tin` `2026-09` `N06`
+
+### Kinh phí
+
+#### `F01` — Kinh phí
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Dự toán tỉnh bố trí KH&CN, ĐMST, CĐS năm 2026 là 1.197,939 tỷ đồng (báo cáo ghi 2,04% tổng chi ngân sách địa phương), gồm đầu tư phát triển 1.006,847 tỷ và thường xuyên 191,092 tỷ.
+- **Nguồn:** [S02, tr.11](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Kinh phí` `2026-06` `F01`
+
+#### `F02` — Kinh phí
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Báo cáo tháng 8 lặp lại dự toán 1.197,939 tỷ đồng, chiếm 2,04%, gồm 1.006,847 tỷ đầu tư và 191,092 tỷ chi thường xuyên.
+- **Nguồn:** [S04, tr.15](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Kinh phí` `2026-08` `F02`
+
+#### `F03` — Kinh phí
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 lặp lại mức bố trí 1.197,939 tỷ đồng, nhưng tỷ trọng được viết tròn là 2% tổng chi NSĐP (so với 2,04% các báo cáo trước).
+- **Nguồn:** [S05, tr.19](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Kinh phí` `2026-09` `F03`
+
+#### `F04` — Kinh phí
+- **Kỳ/thời điểm:** 2026-06
+- **Dữ kiện:** Địa phương từng kiến nghị Trung ương bố trí bổ sung 1.086,569 tỷ đồng; dự toán theo phương án bổ sung 2.284,508 tỷ đồng, ghi 3,89% tổng chi NSĐP. Đây là phương án kiến nghị, không phải số được phân bổ thực tế.
+- **Nguồn:** [S02, tr.2](#s02); [S02, tr.11](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Kinh phí` `2026-06` `F04`
+
+### Giải ngân chi thường xuyên
+
+#### `F05` — Giải ngân chi thường xuyên
+- **Kỳ/thời điểm:** 2026-08-20
+- **Dữ kiện:** Kinh phí thường xuyên phần ngân sách tỉnh quản lý đã giải ngân 35,215 tỷ đồng, 18,93% theo báo cáo.
+- **Nguồn:** [S04, tr.15](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Giải ngân chi thường xuyên` `2026-08-20` `F05`
+
+#### `F06` — Giải ngân chi thường xuyên
+- **Kỳ/thời điểm:** 2026-09-20
+- **Dữ kiện:** Kinh phí thường xuyên ngân sách tỉnh quản lý giải ngân 39,915 tỷ đồng, 21,46% theo báo cáo; ngân sách cấp xã giải ngân 3,975 tỷ đồng nhưng ghi tỷ lệ 16,93% cần xác minh mẫu số.
+- **Nguồn:** [S05, tr.19](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Giải ngân chi thường xuyên` `2026-09-20` `F06`
+
+### Giải ngân đầu tư công
+
+#### `F07` — Giải ngân đầu tư công
+- **Kỳ/thời điểm:** 2026-06-12
+- **Dữ kiện:** Đến 12/6/2026, các dự án đầu tư công KH&CN, ĐMST, CĐS dự kiến bố trí vốn năm 2026 chưa phát sinh giải ngân.
+- **Nguồn:** [S02, tr.12](#s02)
+- **RAG tags:** `NQ57` `Tây Ninh` `Giải ngân đầu tư công` `2026-06-12` `F07`
+
+#### `F08` — Giải ngân đầu tư công
+- **Kỳ/thời điểm:** 2026-08-17
+- **Dữ kiện:** Tổng giải ngân vốn đầu tư công lĩnh vực KH&CN, ĐMST, CĐS 95,767 tỷ đồng, đạt 13,8% vốn phân bổ trong năm; vốn tỉnh 3,348/345,6 tỷ, vốn Trung ương 92,419 tỷ.
+- **Nguồn:** [S04, tr.15](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Giải ngân đầu tư công` `2026-08-17` `F08`
+
+#### `F09` — Giải ngân đầu tư công
+- **Kỳ/thời điểm:** 2026-09-20
+- **Dữ kiện:** Tổng giải ngân đầu tư công 132,282/694,1 tỷ đồng, báo cáo ghi 18,97%; vốn tỉnh 30,786/345,6 tỷ và vốn trung ương 101,496/348,5 tỷ.
+- **Nguồn:** [S05, tr.19](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Giải ngân đầu tư công` `2026-09-20` `F09`
+
+### Danh mục đầu tư
+
+#### `F10` — Danh mục đầu tư
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Báo cáo tháng 8 ghi 20 chủ đầu tư đăng ký 64 dự án, tổng mức đầu tư dự kiến 3.263,045 tỷ đồng; khác tập thống kê dự án/vốn phân bổ tháng 9.
+- **Nguồn:** [S04, tr.15](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Danh mục đầu tư` `2026-08` `F10`
+
+#### `F11` — Danh mục đầu tư
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 ghi 37 dự án KH&CN, ĐMST, CĐS; tại mục giải ngân sử dụng số vốn phân bổ năm 2026 là 694,1 tỷ đồng. Không đồng nhất phạm vi này với 64 dự án đăng ký tổng mức đầu tư của báo cáo tháng 8.
+- **Nguồn:** [S05, tr.19](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Danh mục đầu tư` `2026-09` `F11`
+
+### Hạn chế/rủi ro
+
+#### `R01` — Hạn chế/rủi ro
+- **Kỳ/thời điểm:** 2026-08
+- **Dữ kiện:** Tỷ lệ giải ngân đầu tư công còn thấp; nhiệm vụ thí điểm tối thiểu 3 gói mua sắm công kết quả KH&CN, ĐMST có nguy cơ chậm theo báo cáo tháng 8.
+- **Nguồn:** [S04, tr.16](#s04)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hạn chế/rủi ro` `2026-08` `R01`
+
+#### `R02` — Hạn chế/rủi ro
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Đến kỳ tháng 9 còn 4/96 xã/phường chưa kiện toàn Ban Chỉ đạo; 2 đơn vị chưa thống nhất giao Công an cấp xã làm cơ quan thường trực.
+- **Nguồn:** [S05, tr.20](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hạn chế/rủi ro` `2026-09` `R02`
+
+#### `R03` — Hạn chế/rủi ro
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Nhiệm vụ thí điểm ít nhất 3 gói mua sắm công với sản phẩm từ kết quả KH&CN, ĐMST có hạn trước 30/9/2026 và được báo cáo xếp nhóm nguy cơ chậm.
+- **Nguồn:** [S05, tr.20](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hạn chế/rủi ro` `2026-09` `R03`
+
+#### `R04` — Hạn chế/rủi ro
+- **Kỳ/thời điểm:** 2026-09
+- **Dữ kiện:** Báo cáo tháng 9 nhận định giải ngân vốn đầu tư công còn thấp, một số vấn đề về dữ liệu và an ninh mạng cần tập trung khắc phục.
+- **Nguồn:** [S05, tr.20-21](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Hạn chế/rủi ro` `2026-09` `R04`
+
+### Ưu tiên tháng 10
+
+#### `R05` — Ưu tiên tháng 10
+- **Kỳ/thời điểm:** 2026-10
+- **Dữ kiện:** Các nhiệm vụ ưu tiên: giải quyết nhiệm vụ đến hạn/nguy cơ chậm, phục vụ đoàn kiểm tra, khắc phục hạn chế dữ liệu và hạ tầng dữ liệu, hoàn thiện cơ chế chính sách, phát triển KH&CN/ĐMST, bảo đảm an toàn thông tin và đẩy giải ngân.
+- **Nguồn:** [S05, tr.22-24](#s05)
+- **RAG tags:** `NQ57` `Tây Ninh` `Ưu tiên tháng 10` `2026-10` `R05`
+
+
+## 5. Kết luận đánh giá và nhiệm vụ theo giai đoạn (trích tuyển theo nguồn)
+
+### 5.1. 1 năm 6 tháng và tháng 6
+
+- Báo cáo sơ kết 158-BC/TU nhận định điều hành triển khai Nghị quyết 57 đã được tổ chức theo kế hoạch giai đoạn/năm/chuyên đề, có theo dõi nhiệm vụ, gắn sản phẩm; nhấn mạnh chuyển biến về hạ tầng 5G, dữ liệu, đổi mới sáng tạo và thử nghiệm AI/UAV. Phần OCR tiếng Việt tại báo cáo này không đáng tin cậy để chép nguyên văn, nên cần đối chiếu PDF. [S01, tr.1-5, 29-30]
+- Báo cáo tháng 6 nêu sự cần thiết kiện toàn Ban Chỉ đạo UBND tỉnh, chuyển nhiệm vụ cơ quan thường trực cho Công an tỉnh theo chỉ đạo cấp trên; đồng thời triển khai cơ chế cập nhật tiến độ, giám sát và xây dựng sản phẩm đầu ra. [S02, tr.1-2]
+- Trọng tâm tháng 7 theo báo cáo tháng 6: cập nhật chương trình công tác; hoàn thiện cơ chế, chính sách; tháo gỡ các bài toán lớn; triển khai hạ tầng, số hóa, dữ liệu và dịch vụ công; bảo đảm an ninh mạng; đào tạo nhân lực và thúc đẩy giải ngân. [S02, tr.13-18]
+### 5.2. Báo cáo tháng 7 và tháng 8
+
+- Báo cáo tháng 7 của UBND tỉnh nhấn mạnh trách nhiệm điều hành, cải cách TTHC, tích hợp nền tảng số, UAV, AI, nguồn nhân lực và nguồn lực tài chính. **Lưu ý toàn bộ trang đầu và nhiều trang có OCR chữ Việt bị lỗi**, nên chỉ nên sử dụng để định vị nguồn nếu chưa đối chiếu trực tiếp. [S03, tr.1-12]
+- Báo cáo tháng 8 cho biết tỉnh lựa chọn 7 điểm nghẽn trọng tâm của Kế hoạch 100 ngày, đồng thời ghi nhận các kết quả trong phát triển TNIC, UAV, AI và số hóa dữ liệu; báo cáo cũng chỉ rõ áp lực giải ngân thấp và nhóm nhiệm vụ mua sắm công có nguy cơ chậm. [S04, tr.2-3, 5-7, 16]
+### 5.3. Báo cáo tháng 9 và nhiệm vụ tháng 10
+
+- Báo cáo tháng 9 chuyển trọng tâm sang số lượng nhiệm vụ đã hoàn thành, tháo gỡ điểm nghẽn thiết bị, tính hiệu quả của nền tảng dữ liệu và thúc đẩy giải ngân, khẳng định cần kiểm đếm trách nhiệm người đứng đầu. [S05, tr.2-3, 10-13, 19-20]
+- Tháng 10: đôn đốc nhiệm vụ cận hạn, tập trung hồ sơ phục vụ kiểm tra, chuẩn hóa và kết nối dữ liệu, hoàn thiện chính sách hỗ trợ, triển khai chiến lược UAV/AI/TNIC và tăng cường an toàn thông tin, giải ngân. Đây là **nhiệm vụ dự kiến tại thời điểm lập báo cáo 29/9/2026**, không mặc nhiên là kết quả đã hoàn thành. [S05, tr.22-24]
+
+## 6. Vấn đề chất lượng dữ liệu và quy tắc không suy diễn
+
+### QC-01. Khác số văn bản so với tên PDF
+- **Ghi nhận:** S03 có tên tệp 3816 nhưng lớp chữ trang 1 đọc thành 3846/BC-UBND; S04 và S05 là BC-TGV trong nội dung; S02 đầu văn bản chưa điền số.
+- **Quy tắc RAG:** Không đổi tên hoặc viết lại số ký hiệu từ phỏng đoán; xác minh PDF ký số trước khi dẫn trên văn bản chính thức.
+- **Bằng chứng:** [S02, tr.1](#s02); [S03, tr.1](#s03); [S04, tr.1](#s04); [S05, tr.1](#s05)
+
+### QC-02. Khác số lượng nền tảng/CSDL
+- **Ghi nhận:** Tháng 6 thống kê 182 mục chung, tháng 8 tách 46+160, tháng 9 tách 45+169.
+- **Quy tắc RAG:** Không diễn giải là tăng thêm 32 hay số khác; yêu cầu danh mục cùng tiêu chí thống kê và thời điểm.
+- **Bằng chứng:** [S02, tr.6](#s02); [S04, tr.9](#s04); [S05, tr.11](#s05)
+
+### QC-03. Khác tỷ lệ bố trí ngân sách
+- **Ghi nhận:** Tỷ trọng 1.197,939 tỷ được ghi 2,04% ở S02/S04 và 2% ở S05.
+- **Quy tắc RAG:** Có thể là làm tròn hoặc cách trình bày; giữ đúng nguồn và tỷ lệ.
+- **Bằng chứng:** [S02, tr.11](#s02); [S04, tr.15](#s04); [S05, tr.19](#s05)
+
+### QC-04. Số cấp xã giải ngân thường xuyên
+- **Ghi nhận:** S05 ghi cấp xã bố trí 5,078 tỷ, đã giải ngân 3,975 tỷ và ghi đạt 16,93%; tỷ số 3,975/5,078 xấp xỉ 78,28%.
+- **Quy tắc RAG:** Mẫu số báo cáo dùng khi tính 16,93% chưa được giải thích trong đoạn này. Trích nguyên các số và yêu cầu đối chiếu, không tự thay số chính thức.
+- **Bằng chứng:** [S05, tr.19](#s05)
+
+### QC-05. Thành phần đầu tư phát triển
+- **Ghi nhận:** S05 ghi tổng đầu tư phát triển 1.006,847 tỷ; liệt kê vốn Trung ương 348,500 tỷ và vốn địa phương 653,325 tỷ, tổng cộng hai khoản là 1.001,825 tỷ.
+- **Quy tắc RAG:** Có chênh số học 5,022 tỷ chưa được giải thích bằng hai khoản liệt kê; không tự suy ra phần còn thiếu.
+- **Bằng chứng:** [S05, tr.19](#s05)
+
+### QC-06. Danh mục dự án khác kỳ
+- **Ghi nhận:** S04 thống kê 64 dự án do 20 chủ đầu tư đăng ký và tổng mức đầu tư dự kiến 3.263,045 tỷ; S05 nói 37 dự án với 694,1 tỷ vốn phân bổ năm 2026.
+- **Quy tắc RAG:** Tổng mức đầu tư dự kiến không bằng vốn phân bổ năm 2026, dự án đang đăng ký không tương ứng hoàn toàn với dự án có kế hoạch vốn.
+- **Bằng chứng:** [S04, tr.15](#s04); [S05, tr.19](#s05)
+
+### QC-07. Hồ sơ khám sức khỏe
+- **Ghi nhận:** S04 thống kê khám 1.251.036/3.194.187 người, S05 là 1.844.557/2.128.099 người.
+- **Quy tắc RAG:** Hai báo cáo dùng mẫu số khác nhau: không gọi 39,2% lên 86,7% là tăng đồng nhất nếu chưa có giải trình thay đổi mẫu số.
+- **Bằng chứng:** [S04, tr.11](#s04); [S05, tr.15](#s05)
+
+### QC-08. Dữ liệu đất đai
+- **Ghi nhận:** S02 tổng thửa đất trong cơ sở dữ liệu, S04/S05 thống kê thửa Nhóm 1 đạt yêu cầu và số trường hợp đối soát.
+- **Quy tắc RAG:** Không ghép các chỉ số khác tên và đối tượng thành một chuỗi lũy kế.
+- **Bằng chứng:** [S02, tr.7](#s02); [S04, tr.11](#s04); [S05, tr.14](#s05)
+
+### QC-09. Tài liệu OCR có lỗi mã
+- **Ghi nhận:** S01 và S03 hiện có nhiều ký tự Việt đọc nhầm ở lớp văn bản: tên cơ quan, đường dẫn website, số ký hiệu và đơn vị.
+- **Quy tắc RAG:** Không trích nguyên văn câu OCR; dùng PDF gốc để đối chiếu số liệu quan trọng.
+- **Bằng chứng:** [S01, tr.1-5](#s01); [S03, tr.1-4](#s03)
+
+### QC-10. Cùng dữ liệu học tập xuất hiện ở nhiều kỳ
+- **Ghi nhận:** Thông tin 3 lớp hơn 3.500 người và 2 khóa hơn 8.800 học viên lặp lại ở S02 và S05.
+- **Quy tắc RAG:** Không cộng hai kỳ thành 7.000 hoặc 17.600 người nếu không xác định là hai nhóm độc lập.
+- **Bằng chứng:** [S02, tr.11](#s02); [S05, tr.16](#s05)
+
+
+### QC-11. Tỷ lệ giải ngân đầu tư công tháng 9 không khớp phép tính đơn giản
+- **Ghi nhận:** S05 ghi 132,282/694,1 tỷ đồng, đạt 18,97%; phép chia từ hai số nêu trong cùng đoạn xấp xỉ 19,06%. Cùng trang ghi vốn tỉnh 30,786/345,6 tỷ, đạt 8,74%, trong khi phép chia xấp xỉ 8,91%.
+- **Quy tắc RAG:** Giữ cả **số tiền** và **tỷ lệ báo cáo** với nhãn “theo báo cáo”; không tự chỉnh tỷ lệ trong câu trả lời, nhưng khi người dùng hỏi kiểm tra số liệu phải nêu rõ khác biệt và khuyến nghị xác minh bảng phân bổ gốc.
+- **Bằng chứng:** [S05, tr.19](#s05)
+
+### QC-12. Dữ liệu hạ tầng cáp quang trong báo cáo sơ kết
+- **Ghi nhận:** S01 trang 2 thể hiện tỷ lệ hộ có Internet cáp quang là 97,87%, nhưng ở đoạn so sánh trong trang 5 lớp chữ OCR đọc thành 96,25%.
+- **Quy tắc RAG:** Không hợp nhất hai tỷ lệ khác nhau; ưu tiên tham chiếu các báo cáo tháng 6, 8, 9 thống nhất ghi 97,87%, và đối chiếu bản scan khi cần nêu diễn biến lịch sử.
+- **Bằng chứng:** [S01, tr.2,5](#s01); [S02, tr.6](#s02); [S05, tr.10](#s05)
+
+### QC-13. Cộng các hình thức tiếp nhận hồ sơ tháng 8
+- **Ghi nhận:** S04 trang 10 ghi tiếp nhận 88.003 hồ sơ, đồng thời ghi 82.577 trực tuyến và 1.426 trực tiếp. Hai loại hình cộng được 84.003, chênh 4.000 hồ sơ so với tổng số trong cùng đoạn.
+- **Quy tắc RAG:** Dẫn riêng tổng và từng hình thức theo nguồn, không tạo tỷ lệ trực tuyến từ các số này nếu chưa có bảng thống kê xác minh.
+- **Bằng chứng:** [S04, tr.10](#s04)
+
+## 7. Đoạn bằng chứng nguyên văn truy xuất nhanh (nguồn OCR tốt)
+
+> Các đoạn sau trích từ lớp chữ PDF của S02, S04 và S05, đã rút ngắn phần liệt kê/footnote. Dùng để tìm đúng đoạn khi cần kiểm chứng; phần tóm tắt bên trên là dữ liệu chuẩn hóa, không phải trích nguyên văn. Không dùng các đoạn này làm căn cứ nếu bản scan và lớp chữ có sai khác.
+### S02: Báo cáo tháng 6 và nhiệm vụ tháng 7
+
+- **nhiệm vụ theo KH35**, [S02, tr.2](#s02): “Kế hoạch số 35-KH/TU ngày 12/02/2026 của Ban Thường vụ Tỉnh ủy năm 2026, tỉnh đặt ra 62 chỉ tiêu và 150 nhiệm vụ. Tính đến ngày 26/6/2026 tỉnh đã hoàn thành 31/150 nhiệm vụ; đang thực hiện 119/150 nhiệm vụ; không có nhiệm vụ trễ hạn. (Phụ lục kèm theo). 2026; (8) Kế hoạch số 2773/KH-UBND, ngày 17/6/2026 của UBND tỉnh về tổ chức Hội thảo khoa học “Định hướng xây dựng cơ chế, chính sách và góp ý Chiến lược phát triển hệ sinh thái thiết bị bay không người lái tỉnh Tây Ninh giai đoạn 2026 – 2030, tầm nhìn đến năm 2045”; (9) Kế hoạch số 2928”
+- **viễn thông**, [S02, tr.6](#s02): “Hạ tầng số tiếp tục được đầu tư, mở rộng; mạng di động 5G được triển khai tại 100% xã, phường8; tỷ lệ phủ sóng 5G trên dân số đạt 91%; tỷ lệ khu/cụm công nghiệp được phủ sóng mạng di động công nghệ 5G đạt khoảng 51,85%; tỷ lệ hộ gia đình có kết nối Internet cáp quang đạt 96,25%; 100% người sử dụng và doanh nghiệp có khả năng kết nối Internet tốc độ cao (từ 1Gb/s trở lên).”
+- **cơ sở dữ liệu**, [S02, tr.7](#s02): “Công tác chuẩn hóa dữ liệu được tập trung triển khai: (1) Dữ liệu hộ tịch: Hoàn thành số hóa 3.672.687 dữ liệu (100%); (2) Dữ liệu đất đai: Xây dựng cơ sở dữ liệu 2.980.493/3.023.321 thửa (đạt 98,58%), đã đối soát, xác thực với CSDLQGDC là 2.300.552/2.980.493 thửa đất (đạt tỷ lệ 77,18%); (3) Dữ liệu số nhà: Tổng số căn nhà đã đánh số 193.436 căn (không tính được tỷ lệ %); (4) Dữ liệu văn bằng chứng chỉ: Rà soát, làm sạch 13.885/13.885 trường hợp (đạt tỉ lệ 100%); (5) Dữ liệu người tham gia BHXH, BHYT, BHTN: Đã xác thực 2.544.747/2.552.527 thông tin (đạt tỷ lệ 99,70%); (6) Dữ liệu hôn nhân: Kết”
+- **TTHC**, [S02, tr.1](#s02): “n 2026 – 2030; (5) Kế hoạch số 62-KH/TU, ngày 01/6/2026 của Tỉnh ủy về triển khai thực hiện 04 thủ tục hành chính của Đảng trên môi trường điện tử trên địa bàn tỉnh. 2 (1) Quyết định số 9580/QĐ-UBND, ngày 03/6/2026 của UBND tỉnh về việc kiện toàn Ban Chỉ đạo của UBND tỉnh về phát triển khoa học công nghệ, đổi mới sáng tạo, chuyển đổi số và Đề án 06; (2) Quyết định số 11057/QĐ-UBND, ngày 24/6/2026 của UBND tỉnh về việc thành lập Tổ Giúp việc Ban Chỉ đạo của UBND tỉnh về phát triển khoa học công nghệ, đổi mới sáng tạo, chuyển đổi số và Đề”
+- **hồ sơ TTHC**, [S02, tr.7](#s02): “ồ sơ tiếp nhận: 602.548 hồ sơ, (trực tuyến: 592.308 hồ sơ, trực tiếp: 10.240 hồ sơ), trong đó: Đã giải quyết: 570.322 hồ sơ, trước hạn: 247.830 hồ sơ, đúng hạn: 322.098 hồ sơ, quá hạn: 394 hồ sơ (0.06%). + Trên Hệ thống thông tin giải quyết thủ tục hành chính của Bộ, ngành: Tổng số hồ sơ tiếp nhận: 50.780 hồ sơ, (trực tuyến: 49.581 hồ sơ, trực tiếp: 1.199 hồ sơ), trong đó: Đã giải quyết: 42.053 hồ sơ, trước hạn: 40.127 hồ sơ, đúng hạn: 1014 hồ sơ, quá hạn: 912 hồ sơ (2.16%).”
+- **kỹ năng số**, [S02, tr.11](#s02): “Bộ Khoa học và Công nghệ triển khai 03 lớp bồi dưỡng về chuyển đổi số trên Nền tảng “Bình dân học vụ số” cho hơn 3.500 học viên tại các cơ quan đơn vị trên địa bàn tỉnh. Theo dõi triển khai 02 khóa học trên nền tảng Bình dân học vụ số (https://binhdanhocvuso.gov.vn) cho hơn 8.800 học viên là cán bộ, công chức, viên chức, người lao động và thành viên Tổ Công nghệ số cộng đồng tại các Sở, ngành tỉnh và UBND xã, phường. Triển khai mô hình “Đại sứ số”
+- **đổi mới sáng tạo**, [S02, tr.4](#s02): “Tây Ninh (tại địa chỉ http://sgdcn.tayninh.gov.vn). 2. Về đổi mới sáng tạo 2.1. Hoạt động của Trung tâm Đổi mới sáng tạo”
+- **ngân sách**, [S02, tr.11](#s02): “vực KHCN, ĐMST và CĐS Năm 2026, tỉnh đã bố trí dự toán cho lĩnh vực KHCN, ĐMST và CĐS số tiền 1.197,939 tỷ đồng (chiếm 2,04% tổng chi ngân sách địa phương), trong đó: 1.006,847 tỷ đồng chi đầu tư phát triển và 191,092 tỷ đồng chi thường xuyên. Bên cạnh đó, trên cơ sở rà soát nhiệm vụ chi tại địa phương, UBND tỉnh có văn bản kiến nghị Trung ương tiếp tục bố trí vốn cho ngân sách địa phương thực hiện với tổng số tiền 1.086,569 tỷ đồng22, theo đó dự kiến tổng dự toán chi lĩnh vực này là 2.284,508 tỷ đồng, chiếm 3,89% tổng chi NSĐP”
+- **giải ngân**, [S02, tr.4](#s02): “chính thức); cập nhật đầy đủ vòng đời nhiệm vụ (đặt hàng, tuyển chọn/giao trực tiếp, hợp đồng, giải ngân, nghiệm thu, chuyển giao, theo dõi sau nghiệm thu); Thông tin kết quả và tài chính của nhiệm vụ (phần được công khai theo quy định) được minh bạch trên nền tảng số; bảo đảm lưu vết, ký số, đối soát tiến độ, giải ngân, sản phẩm. 1.4. Tiếp tục duy trì, vận hành Sàn giao dịch công nghệ và thiết bị tỉnh Tây Ninh (tại địa chỉ http://sgdcn.tayninh.gov.vn). 2. Về đổi mới sáng tạo 2.1. Hoạt động của Trung tâm Đổi mới sáng tạo”
+- **an toàn thông tin**, [S02, tr.10](#s02): “Tiếp nhận, thẩm định đối với 82 hồ sơ đề xuất cấp độ an toàn thông tin đối với hệ thống thông tin, đã hoàn thành 20/82 hồ sơ (Phê duyệt 09/20 hồ sơ; cho ý kiến 11/20 hồ sơ).”
+
+### S04: Báo cáo tháng 8, nhiệm vụ tháng 9
+
+- **nhiệm vụ theo KH35**, [S04, tr.3](#s04): “Kế hoạch số 35-KH/TU ngày 12/02/2026 của Ban Thường vụ Tỉnh ủy năm 2026, tỉnh đặt ra 62 chỉ tiêu và 150 nhiệm vụ. Tính đến ngày 20/8/2026 tỉnh đã hoàn thành 46/150 nhiệm vụ; đang thực hiện 104/150 nhiệm vụ; không có nhiệm vụ trễ hạn (Phụ lục II kèm theo).”
+- **nhiệm vụ Trung ương**, [S04, tr.2](#s04): “c hiện nhiệm vụ 2.1. Nhiệm vụ Trung ương giao: Tính đến ngày 20/8/2026, tỉnh đã hoàn thành 169/274 nhiệm vụ; đang thực hiện 105/274 nhiệm vụ (trong đó, có 99 nhiệm vụ thường xuyên, 06 nhiệm vụ trong hạn); 01 nhiệm vụ gần đến hạn; không có nhiệm vụ trễ hạn (Phụ lục I kèm theo). 2.2. Nhiệm vụ Tỉnh ủy giao”
+- **100 ngày**, [S04, tr.2](#s04): “yên sang chỉ đạo theo mục tiêu, tiến độ và kết quả đầu ra. Cụ thể hóa nhiệm vụ được giao thành 47 nhiệm vụ cụ thể, xác định 07 điểm nghẽn trọng tâm của tỉnh để tập trung nguồn lực xử lý dứt điểm, từ đó khắc phục tình trạng nhiệm vụ chuyển đổi số dàn trải, thay vào đó, tập trung giải quyết đúng vấn đề đang trực tiếp cản trở quá trình chuyển đổi số của tỉnh. + Đổi mới phương thức, cách làm từ “tỉnh xác định vấn đề cho cơ sở” sang “cơ sở tự nhận diện vấn đề, tỉnh tổng hợp và kiến tạo giải pháp”, từ đó, việc giải quyết điểm nghẽn tron”
+- **bài toán lớn**, [S04, tr.3](#s04): “ghệ, đổi mới sáng tạo và chuyển đổi số. Tính đến thời điểm hiện tại, có 126 đơn vị với tổng số 237 bài toán lớn được đề xuất. 1.2. Kết quả triển khai thực hiện các nhiệm vụ của 06 bài toán lớn theo Công văn số 4742/UBND-VHXH ngày 26/3/2026 của UBND tỉnh về định hướng triển khai các vấn đề lớn (bài toán lớn) trên địa bàn tỉnh (Phụ lục VII kèm theo):”
+- **hệ thống số**, [S04, tr.9](#s04): “Đến nay, toàn tỉnh tập trung xây dựng 46 nền tảng số và 160 CSDL, cụ thể: + Bộ, ngành triển khai xây dựng: 14 nền tảng và 112 CSDL. + Tỉnh xây dựng 32 nền tảng số và 48 CSDL chuyên ngành. + Về cập nhật dữ liệu vào 45 nền tảng số đã có: có 39 nền tảng số đảm bảo cập nhật đầy đủ, 4 nền tảng chỉ sử dụng không yêu cầu cập nhật dữ liệu; 2 nền tảng số đang nâng cấp4. + Về cập nhật dữ liệu vào 124 CSDL đã có: có 115 CSDL đảm bảo cập nhật đầy đủ, 9 CSDL chưa cập nhật dữ liệu5. + Nghị quyế”
+- **viễn thông**, [S04, tr.8](#s04): “Tiếp tục được đầu tư, mở rộng; mạng di động 5G được triển khai tại 100% xã, phường3; phủ sóng mạng di động 5G đến 36/55 khu, cụm công nghiệp đang hoạt động; tỷ lệ phủ sóng 5G trên dân số: Đạt 91%; tỷ lệ hộ gia đình có kết nối Internet cáp quang đạt 97,87%; 100% người sử dụng và doanh nghiệp có khả năng kết nối Internet tốc độ cao (từ 1Gb/s trở lên).”
+- **cơ sở dữ liệu**, [S04, tr.11](#s04): “Công tác chuẩn hóa dữ liệu được tập trung triển khai: (1) Về dữ liệu hộ tịch: Đã số hóa là 3.672.687 dữ liệu; (2) Về dữ liệu đất đai: Hệ thống hiện ghi nhận 300.820 thửa Nhóm 1, đạt tiêu chí “đúng”
+- **sức khỏe**, [S04, tr.11](#s04): “giấy chuyển tuyến, 66.989 giấy hẹn khám lại trên ứng dụng VneID; (2) Đã tạo lập được 3.014.916 hồ sơ sức khỏe điện tử trên tổng số 3.178.703 nhân khẩu thường trú, đạt tỷ lệ 94,85%; (3) Triển khai khám sức khỏe toàn dân: Đến nay, toàn tỉnh đã khám 1.251.036/3.194.187 người, chiếm tỷ lệ 39,2% dân số toàn tỉnh; (4) Kết quả triển khai học bạ số và Bằng cấp số (Tiểu học đến Đại học), các bằng cấp chứng chỉ khác tích hợp trên VNeID: Đã thực hiện đồng bộ 387.585/485.183 học bạ (đạt 79.99%); (5) Về tiến độ phối hợp làm sạch dữ liệu và các nhiệm vụ phục vụ định danh tàu thuyền: Hiện tỉnh có 186 tàu cá,”
+- **TTHC**, [S04, tr.7](#s04): “tuyến phát sinh dữ liệu và trực tiếp giải quyết thủ tục hành chính. Hệ sinh thái áp dụng kiến trúc “AI lai (Hybrid AI)”, vận hành mô hình AI nền mở tại Trung tâm dữ liệu tỉnh (bảo đảm chủ quyền dữ liệu) và kết nối mô hình AI thương mại thông qua API an toàn cho các tác vụ trên dữ liệu công khai. Các thành phần đầu ra trọng tâm của hệ thống bao gồm: (i) Nền tảng tri thức tỉnh (tích hợp MCP server, OCR, pipeline làm sạch”
+- **hồ sơ TTHC**, [S04, tr.10](#s04): “Kết quả tiếp nhận, giải quyết hồ sơ trên hệ thống thông tin giải quyết TTHC của tỉnh: Toàn tỉnh tiếp nhận: 88.003 hồ sơ (trực tuyến: 82.577 hồ sơ, trực tiếp: 1.426 hồ sơ), trong đó: đã giải quyết: 53.927 hồ sơ, trước hạn: 20.389 hồ sơ, đúng hạn: 33.119 hồ sơ, quá hạn: 419 hồ sơ (0,77%).”
+- **kỹ năng số**, [S04, tr.1](#s04): “026 về triển khai thực hiện một số nhiệm vụ, giải pháp trọng tâm tiếp tục đẩy mạnh phong trào “Bình dân học vụ số” trên địa bàn tỉnh.”
+- **UAV**, [S04, tr.6](#s04): “UAV UBND tỉnh đã ban hành Quyết định số 15393/QĐ-UBND ngày 21/8/2026 phê duyệt Chiến lược phát triển hệ sinh thái thiết bị bay không người lái (UAV) tỉnh Tây Ninh giai đoạn 2026”
+- **đổi mới sáng tạo**, [S04, tr.3](#s04): “ầng băng rộng cáp quang và mạng 5G; ban hành danh mục các nền tảng số dùng chung của tỉnh; đưa Trung tâm Đổi mới sáng tạo tỉnh giai đoạn 1 vào vận hành; xây dựng Kế hoạch phổ cập công cụ bảo vệ người dân trên không gian mạng; triển khai phong trào "Bình dân học vụ số" và củng cố hoạt động Tổ Công nghệ số cộng đồng; hoàn thiện Bộ nhận diện thương hiệu hình ảnh tỉnh, Kế hoạch phát triển các ngành công nghiệp văn hóa và các cơ sở dữ liệu chuyên ngành theo lộ trình. Trong Quý IV/2026, hoàn thành việc”
+- **ngân sách**, [S04, tr.15](#s04): “vực KHCN, ĐMST và CĐS: Năm 2026, tỉnh đã bố trí dự toán cho lĩnh vực KHCN, ĐMST và CĐS số tiền 1.197,939 tỷ đồng (chiếm 2,04% tổng chi ngân sách địa phương), trong đó: 1.006,847 tỷ đồng chi đầu tư phát triển và 191,092 tỷ đồng chi thường xuyên. 6.2. Tình hình thực hiện và giải ngân kế hoạch vốn năm 2026 a) Chi thường xuyên: Tổng dự toán kinh phí sự nghiệp khoa học công nghệ, đổi mới sáng tạo và chuyển đổi số đã phân bổ năm 2026 là 191,092 tỷ đồng, đạt 107% so với mức Trung ương giao. Đến ngày 20/8/2026, kinh phí thường xuyên phần ngân sách cấp tỉnh quản lý đã giải ngân 35,215 tỷ đồng, đạt khoả”
+- **giải ngân**, [S04, tr.15](#s04): “tỷ đồng chi đầu tư phát triển và 191,092 tỷ đồng chi thường xuyên. 6.2. Tình hình thực hiện và giải ngân kế hoạch vốn năm 2026 a) Chi thường xuyên: Tổng dự toán kinh phí sự nghiệp khoa học công nghệ, đổi mới sáng tạo và chuyển đổi số đã phân bổ năm 2026 là 191,092 tỷ đồng, đạt 107% so với mức Trung ương giao. Đến ngày 20/8/2026, kinh phí thường xuyên phần ngân sách cấp tỉnh quản lý đã giải ngân 35,215 tỷ đồng, đạt khoảng 18,93% dự toán giao. b) Chi đầu tư công”
+- **an toàn thông tin**, [S04, tr.13](#s04): “Tiếp nhận 109/212 hồ sơ đề xuất cấp độ an toàn thông tin, đã phê duyệt 43/109 hồ sơ, hiện đang tiếp tục đôn đốc, hướng dẫn các sở, ngành, địa phương thực hiện.”
+
+### S05: Báo cáo tháng 9, nhiệm vụ tháng 10
+
+- **nhiệm vụ theo KH35**, [S05, tr.3](#s05): “Kế hoạch số 35-KH/TU ngày 12/02/2026 của Ban Thường vụ Tỉnh ủy năm 2026, tỉnh đặt ra 62 chỉ tiêu và 150 nhiệm vụ. Tính đến ngày 20/9/2026 tỉnh đã hoàn thành 96/150 nhiệm vụ; đang thực hiện 54/150 nhiệm vụ; không có nhiệm vụ trễ hạn (Phụ lục 2 kèm theo).”
+- **nhiệm vụ Trung ương**, [S05, tr.3](#s05): “c hiện nhiệm vụ 2.1. Nhiệm vụ Trung ương giao: Tính đến ngày 20/9/2026, tỉnh đã hoàn thành 170/274 nhiệm vụ; đang thực hiện 104/274 nhiệm vụ (trong đó, có 99 nhiệm vụ thường xuyên, 05 nhiệm vụ trong hạn); 01 nhiệm vụ gần đến hạn; không có nhiệm vụ trễ hạn (Phụ lục 1 kèm theo). 2.2. Nhiệm vụ Tỉnh ủy giao”
+- **100 ngày**, [S05, tr.3](#s05): “động 100 ngày (theo Quyết định số 88/QĐ-BCĐCP): Tính đến ngày 20/9/2026, tỉnh đã hoàn thành 18/47 nhiệm vụ, đang thực hiện 29/47 nhiệm vụ, không có nhiệm vụ chậm, muộn, trễ hạn. II. MỘT SỐ KẾT QUẢ CỤ THỂ TRÊN CÁC LĨNH VỰC KHOA HỌC, CÔNG NGHỆ, ĐỔI MỚI SÁNG TẠO VÀ CHUYỂN ĐỔI SỐ 1. Về khoa học, công nghệ 1.1. UBND tỉnh chỉ đạo các cơ quan, đơn vị trên địa bàn tỉnh chủ động rà soát, xác định những vấn đề trọng tâm, cấp bách trong quản lý nhà nước, phát triển ngành, lĩnh vực phụ trách; trên cơ sở đó đề xuất các “bài toán lớn” về khoa h”
+- **bài toán lớn**, [S05, tr.3](#s05): “ghệ, đổi mới sáng tạo và chuyển đổi số. Tính đến thời điểm hiện tại, có 126 đơn vị với tổng số 237 bài toán lớn được đề xuất (Trong đó: 24 cơ quan cấp tỉnh; 96 xã, phường và 06 đơn vị là viện, trường, doanh nghiệp). 1.2. Kết quả triển khai thực hiện các nhiệm vụ của 06 bài toán lớn theo Công văn số 4742/UBND-VHXH ngày 26/3/2026 của UBND tỉnh về định hướng triển khai các vấn đề lớn (bài toán lớn) trên địa bàn tỉnh (chi tiết tại Phụ lục 5 kèm theo):”
+- **hệ thống số**, [S05, tr.11](#s05): “Đến nay, toàn tỉnh tập trung xây dựng 45 nền tảng số và 169 CSDL. Cụ thể: + Bộ ngành triển khai xây dựng: 14 nền tảng và 118 CSDL. + Tỉnh xây dựng 31 nền tảng số và 51 CSDL chuyên ngành. + Về cập nhật dữ liệu vào 44 nền tảng số đã có: có 38 nền tảng số đảm bảo cập nhật đầy đủ, 4 nền tảng chỉ sử dụng không yêu cầu cập nhật dữ liệu; 2 nền tảng số đang nâng cấp6. + Về cập nhật dữ liệu vào 127 CSDL đã có: có 118 CSDL đảm bảo cập nhật đầy đủ, 09 CSDL chưa cập nhật dữ liệu7. 5 (1) Hệ th”
+- **viễn thông**, [S05, tr.10](#s05): “Hạ tầng số tiếp tục được đầu tư, mở rộng; mạng di động 5G được triển khai tại 100% xã, phường4; phủ sóng mạng di động 5G đến 36/55 khu, cụm công nghiệp đang hoạt động; tỷ lệ phủ sóng 5G trên dân số: Đạt 91%; tỷ lệ hộ gia đình có kết nối Internet cáp quang đạt 97,87%; 100% người sử dụng và doanh nghiệp có khả năng kết nối Internet tốc độ cao (từ 1Gb/s trở lên).”
+- **cơ sở dữ liệu**, [S05, tr.14](#s05): “với các đơn vị để hoàn thiện. d) Công tác chuẩn hóa dữ liệu được tập trung triển khai: (1) Về dữ liệu hộ tịch: Đã số hóa là 3.969.791 dữ liệu; (2) Về dữ liệu đất đai: Hệ thống hiện ghi nhận 1.499.689 thửa Nhóm 1, đạt tiêu chí “đúng”
+- **sức khỏe**, [S05, tr.15](#s05): “n tuyến, 66.989 giấy hẹn khám lại trên ứng dụng VNeID; (2) Đã tạo lập được 3.075.971/3.178.703 hồ sơ sức khỏe điện tử, đạt tỷ lệ 96,76%; (3) Triển khai khám sức khỏe toàn dân: Đến nay, toàn tỉnh đã khám 1.844.557/2.128.099 người, chiếm tỷ lệ 86,7% dân số toàn tỉnh; (4) Kết quả triển khai học bạ số và Bằng cấp số (Tiểu học đến Đại học), các bằng cấp chứng chỉ khác tích hợp trên VNeID: Đã thực hiện đồng bộ 472.680/484.885 học bạ (đạt 97,5%); (5) Về tiến độ phối hợp làm sạch dữ liệu và các nhiệm vụ phục vụ định danh tàu thuyền: Hiện tỉnh có 186”
+- **TTHC**, [S05, tr.2](#s05): “xã hội số tỉnh Tây Ninh giai đoạn 2026 – 2030; (22) Công văn số 14922/UBND-TTPVHCC ngày 17/8/2026 triển khai tái cấu trúc quy trình giải quyết thủ tục hành chính; (23) Công văn số 15959/UBND-TTPVHCC ngày 29/8/2026 đôn đốc thực hiện cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu.”
+- **hồ sơ TTHC**, [S05, tr.13](#s05): “Kết quả tiếp nhận, giải quyết hồ sơ trên hệ thống thông tin giải quyết TTHC của tỉnh: Trong tháng, toàn tỉnh tiếp nhận: 66.230 hồ sơ, (trực tuyến 36.521 hồ sơ). Trong đó: Đã giải quyết 40.039 hồ sơ, trước hạn 17.327 hồ sơ, đúng hạn 22.384 hồ sơ, quá hạn 328 hồ sơ (0,81%). Lũy kế đến nay, toàn tỉnh tiếp nhận 724.540 hồ sơ, (trực tuyến 669.477 hồ sơ), trong đó đã giải quyết 698.128 hồ sơ, trước hạn 299.400 hồ sơ, đúng hạn 397.420 hồ sơ, quá hạn 1.308 hồ sơ (0.18%).”
+- **kỹ năng số**, [S05, tr.1](#s05): “về việc đăng ký tham gia học về an ninh mạng, dữ liệu cá nhân, trí tuệ nhân tạo trên nền tảng bình dân học vụ số; (6) Công văn số 16120/UBND-VHXH ngày 07/9/2026 về việc triển khai thực hiện Quyết định số 1624/QĐ-TTg ngày 21/8/2026 của Thủ tướng Chính phủ phê duyệt Chiến lược sở hữu trí tuệ; (7) Công văn số 16123/UBND-VHXH ngày 07/9/2026 về việc triển khai thực hiện Quyết định số 1671/QĐ-TTg ngày 28/8/2026 của Thủ tướng Chính phủ phê duyệt Chiến lược quốc gia về Trí tuệ nhân tạo đến năm 2030, tầm nhìn đến năm 2045; (8) Công văn số 16104/”
+- **UAV**, [S05, tr.1](#s05): “ạng, an toàn thông tin, an ninh dữ liệu và hồ sơ cấp độ hệ thống thông tin; (13) Quyết định số 15393/QĐ-UBND ngày 21/8/2026 phê duyệt Chiến lược phát triển hệ sinh thái thiết bị bay không người lái tỉnh Tây Ninh giai đoạn 2026 – 2030, tầm nhìn đến năm 2035; (14) Thông báo số 3981/TB-UBND ngày 21/8/2026 về kết luận của Phó Chủ tịch UBND tỉnh Phạm Tấn Hòa tại buổi họp về tiến độ triển khai, giải ngân các dự án thuộc lĩnh vực khoa học và công nghệ, đổi mới sáng tạo; việc mua”
+- **đổi mới sáng tạo**, [S05, tr.5](#s05): “hiệm vụ về quản trị dữ liệu và quản trị AI trong cơ quan nhà nước. 2. Về đổi mới sáng tạo 2.1. Trung tâm Đổi mới sáng tạo tỉnh (giai đoạn 1) Tổ chức khánh thành vào ngày 18/3/2026 theo Kế hoạch số 685/KH-UBND ngày 11/02/2026 của UBND tỉnh. Tiếp nhận và thực hiện hỗ trợ miễn phí hoàn toàn việc đặt Văn phòng đại diện tại Trung tâm Đổi mới sáng tạo tỉnh cho 03 doanh nghiệp startup tiềm năng, tạo môi trường ươm tạo lý tưởng giúp các doanh nghiệp giảm chi phí vận hành ban đầu và dễ dàng kết nối với hệ sinh thái. Triển khai xây dựng và vận hành Kênh t”
+- **ngân sách**, [S05, tr.19](#s05): “lĩnh vực khoa học, công nghệ, đổi mới sáng tạo, chuyển đổi số: Tỉnh đã bố trí dự toán số tiền 1.197,939 tỷ đồng (chiếm 2% tổng chi ngân sách địa phương), trong đó: 1.006,847 tỷ đồng chi đầu tư phát triển và 191,092 tỷ đồng chi thường xuyên, cụ thể: a) Chi thường xuyên: là 191,092 tỷ đồng13, đạt 107% so với mức Trung ương giao14.”
+- **giải ngân**, [S05, tr.1](#s05): “8/2026 về kết luận của Phó Chủ tịch UBND tỉnh Phạm Tấn Hòa tại buổi họp về tiến độ triển khai, giải ngân các dự án thuộc lĩnh vực khoa học và công nghệ, đổi mới sáng tạo; việc mua”
+- **an toàn thông tin**, [S05, tr.2](#s05): “ầu đảm bảo an ninh, an toàn thông tin, an ninh mạng thông qua diễn tập thực chiến và phê duyệt cấp độ an toàn thông tin. Tổ chức các hội nghị lớn nhằm thúc đẩy phát triển khoa học, công nghệ, đổi mới sáng tạo như: Hội nghị xúc tiến đầu tư tỉnh Tây Ninh kết hợp công bố Chiến lược phát triển Hệ sinh thái thiết bị không người lái, Hội nghị kết nối chuỗi cung ứng hàng hóa xuất nhập khẩu, thương mại điện tử tỉnh Tây Ninh,… Điều này cho thấy tư duy triển khai chuyển đổi số đang từng bước chuyển từ ứng dụng công nghệ đơn thuần sang thử nghiệm các giải pháp mới gắn với yêu cầu thực tiễn.”
+
+
+## 8. Hướng dẫn tích hợp và truy vấn RAG
+
+**Gợi ý cấu hình truy xuất:** Chia tài liệu theo heading `#### MÃ-##`, có thể chia tiếp các bảng so sánh thành các chunk riêng. Metadata khuyến nghị: `source_id`, `source_pdf`, `physical_page`, `as_of`, `topic`, `record_id`, `evidence_status`. Cho phép truy hồi theo từ khóa: `Nghị quyết 57`, `Tây Ninh`, `Kế hoạch 35-KH/TU`, `điểm nghẽn`, `100 ngày`, `GRDP`, `TNIC`, `UAV`, `AI tự chủ`, `TTHC`, `giải ngân`.
+
+**Mẫu câu trả lời bắt buộc:** “Theo Báo cáo 4489/BC-TGV lập ngày 29/9/2026, số liệu chốt đến 20/9/2026, tỉnh hoàn thành 96/150 nhiệm vụ theo Kế hoạch 35-KH/TU [S05, tr.3].” Nếu không thấy bằng chứng trực tiếp: “Chưa tìm thấy dữ liệu trong 5 báo cáo đã nạp.”
+
+**Phân biệt dữ kiện với đánh giá:** Dữ kiện được xác định bằng số đếm, tỷ lệ, thời điểm và đơn vị; nhận định đánh giá, phương hướng, khả năng hoàn thành hoặc nguy cơ là phát biểu của cơ quan báo cáo tại thời điểm tương ứng, không thay cho dữ kiện đo lường.
+
+**Danh mục bổ sung nên có nếu muốn truy xuất toàn văn:** Các PDF gốc đi kèm trong thư mục riêng có kiểm soát quyền, hoặc kho nội bộ có định danh tài liệu và quyền truy cập. Bản `.md` này độc lập để đọc, nhưng trích dẫn theo trang chỉ kiểm chứng hoàn toàn được khi có PDF gốc.
