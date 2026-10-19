@@ -1,1 +1,183 @@
+# TỔNG HỢP 88 VĂN BẢN NGUỒN — HỆ THỐNG VĂN BẢN TÂY NINH (BIÊN TẬP ĐỂ HỌC KIẾN THỨC)
+Nguồn tổng hợp từ 4 tài liệu cục bộ đã nhận:
+- `00_BAT_DAU.md` (tài liệu khởi đầu)
+- `01_DANH_MUC_NGUON.md` (danh mục 88 văn bản)
+- `02_CHU_TRUONG_KET_LUAN.md` (chỉ mục chủ trương/kết luận)
+- `03_TRA_CUU_NHIEM_VU.md` (chỉ mục đoạn nguyên văn liên quan nhiệm vụ/phân công/hạn)
+Tạo tại: 2026-10-19 (+07:00) theo yêu cầu người dùng. Không tạo thêm chủ trương/chỉ tiêu; không tính toán mới; chỉ biên tập từ nguồn đã có.
+Ghi chú: `Thuc_hien_NQ57` đã sửa 3 dòng cho S02 (96,25%) tại commit cục bộ `0b7628e`; `Danh_ba_so_dt` và `AGENTS.md` giữ trạng thái cục bộ chưa đẩy GitHub.
+---
+## 1. TÀI LIỆU KHỞI ĐẦU (từ 00_BAT_DAU.md)
+# HỆ THỐNG VĂN BẢN TÂY NINH — KHO TRI THỨC MARKDOWN CHO RAG
+- Thư mục Google Drive nguồn: https://drive.google.com/drive/folders/1DldfXOF3W-gHlfFK0ioyj1Qy3933Sy35?usp=sharing
+- Số lượng: **88 PDF nguồn**, **818 trang** (tính theo số trang PDF).
+- Tài liệu trích xuất chữ trực tiếp: **73**; tài liệu cần kiểm chứng OCR: **15**.
+- Thời điểm lập bộ tư liệu: 19/10/2026.
+## Nguyên tắc biên tập
+## Các tệp chỉ mục
+## Phân nhóm tài liệu
+### 1.1 Tóm tắt 7 nhóm tài liệu (từ 00_BAT_DAU.md)
+- Chủ trương, nghị quyết, thông báo kết luận: 10 văn bản.
+- Chương trình công tác, điều hành và phân công: 11 văn bản.
+- Khoa học, công nghệ, đổi mới sáng tạo: 23 văn bản.
+- Chuyển đổi số, dữ liệu, hạ tầng số, an toàn thông tin: 19 văn bản.
+- Kinh tế, đầu tư, doanh nghiệp, thương mại: 18 văn bản.
+- Nhân lực, đào tạo, văn hóa, xã hội và thi đua: 7 văn bản.
+- Văn bản và kế hoạch khác: 0 văn bản.
+### 1.2 Ghi chú học từ 00_BAT_DAU.md
+- Không tạo thêm chủ trương, chỉ tiêu, nhiệm vụ, thời hạn hoặc số liệu.
+- Phân nhóm chỉ để tổ chức kho tri thức, không khẳng định cơ quan chủ trì hay trạng thái hiệu lực pháp lý.
+- Mỗi tài liệu có id, tên PDF, URL gốc và các mốc trang [VB-xxx, tr. N].
+- Tài liệu có cờ OCR_cần_đối_chiếu phải mở PDF gốc.
+- Trường số ký hiệu/ngày từ tên tệp phải ghi rõ nguồn; không coi là nội dung đã xác minh nếu lớp chữ gốc khác.
+- Đoạn trích trong bảng tra cứu chỉ là bản sao nguyên văn từ kết quả trích xuất, không phải diễn giải mới.
+- Cần kiểm tra quyền công bố và bảo mật tài liệu trước khi đưa vào repository công khai.
+---
+## 2. DANH MỤC THEO NHÓM (tóm tắt từ 01_DANH_MUC_NGUON.md)
+Nguồn gốc: https://drive.google.com/drive/folders/1DldfXOF3W-gHlfFK0ioyj1Qy3933Sy35?usp=sharing (88 PDF nguồn, 818 trang theo số trang PDF).
+Tổng số trích đoạn nhiệm vụ từ `03_TRA_CUU_NHIEM_VU.md`: 562 đoạn.
+### Chủ trương, nghị quyết, thông báo kết luận (10 tệp) (10 tệp)
+| Mã | Ký hiệu (nguồn) | Ngày (nguồn) | Tệp và nhan đề trích | Trang | Trích xuất | PDF | Markdown |
+|---|---|---|---|---:|---|---|---|
+| VB-001 | 49/NQ-HĐND (trang 1) | 30/07/2024 (lớp chữ trang 1) | 20260721173534_BRNB.pdf | 16 | OCR_cần_đối_chiếu | [PDF](https://drive.google.com/file/d/1-LXkgAJZt5dyZMkFhMnOw7sknjhLDeat/view) | [MD](tai_lieu/01_CHU_TRUONG_KET_LUAN/VB-001_20260721173534_brnb.md) |
+| VB-002 | 713/TB-VPCP (tên tệp) | 22/12/2025 (lớp chữ trang 1) | 713_TB-VPCP_22122025_1-signed.pdf — Kết luận của Thủ tướng Chính phủ Phạm Minh Chính tại buổi làm việc với Ban Thường vụ Tỉnh ủy Tây Ninh ____________ | 6 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1b-ZR1ks1ih-exSfBCkQ5M5Uxs20OeHPe/view) | [MD](tai_lieu/01_CHU_TRUONG_KET_LUAN/VB-002_713_tb_vpcp_22122025_1_signed.md) |
+| VB-003 | 367/TB-VPCP (tên tệp) | 10/07/2026 (lớp chữ trang 1) | 367_TB-VPCP_10072026_1-signed.pdf — Kết luận của Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc tại buổi làm việc với Ban Thường vụ Tỉnh ủy Tây Ninh __________ | 7 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/12O29grjNBm_kTbYJZ66eCfEmD3Ed_W5P/view) | [MD](tai_lieu/01_CHU_TRUONG_KET_LUAN/VB-003_367_tb_vpcp_10072026_1_signed.md) |
+| VB-004 | 37-KH-TU (tên tệp) | 25/02/2026 (lớp chữ trang 1) | 37 KH-TU_dadongdau.pdf | 10 | OCR_cần_đối_chiếu | [PDF](https://drive.google.com/file/d/1yNmRraT7Qz9XAcDiPNRQl1mR7fWiNw-E/view) | [MD](tai_lieu/01_CHU_TRUONG_KET_LUAN/VB-004_37_kh_tu_dadongdau.md) |
+  ... (xem chi tiết tại `01_DANH_MUC_NGUON.md`) ...
+### Chương trình công tác, điều hành và phân công (11 tệp) (11 tệp)
+| Mã | Ký hiệu (nguồn) | Ngày (nguồn) | Tệp và nhan đề trích | Trang | Trích xuất | PDF | Markdown |
+|---|---|---|---|---:|---|---|---|
+| VB-011 | 1389/KH-UBND (tên tệp) | 31/03/2026 (tên tệp) | 1389_KH-UBND_31-03-2026_Ke hoach cong tac VTLT nam 2026.signed.pdf — Công tác văn thư, lưu trữ năm 2026 | 7 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1YBFuDhP_S2wb-CJhcUhA3qb162H0X3PL/view) | [MD](tai_lieu/02_CHUONG_TRINH_DIEU_HANH/VB-011_1389_kh_ubnd_31_03_2026_ke_hoach_cong_tac_vtlt_nam_2026_sign.md) |
+| VB-012 | 2380/KH-UBND (tên tệp) | 29/05/2026 (tên tệp) | 2380_KH-UBND_29-05-2026_KHUB-Trien khai KH 52 TU (HCKĐ BTVTU 2025)-260526.signed.pdf — Triển khai thực hiện Kế hoạch số 52-KH/TU ngày 18/4/2026 của Tỉnh ủy về khắc phục những hạn chế, khuyết điểm năm 2025 của tập | 16 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/10WPE-d8kTtE9siNcCpahb-DibEDCuXrD/view) | [MD](tai_lieu/02_CHUONG_TRINH_DIEU_HANH/VB-012_2380_kh_ubnd_29_05_2026_khub_trien_khai_kh_52_tu_hckd_btvtu_.md) |
+| VB-013 | 2385/KH-UBND (tên tệp) | 01/06/2026 (tên tệp) | 2385_KH-UBND_01-06-2026_KH triển khai phương án kết nối chia sẻ camera giám sát.signed.pdf — Triển khai Phương án kết nối, chia sẻ dữ liệu giữa các hệ thống Camera giám sát an ninh, trật tự, xử lý vi phạm và điều hành  | 14 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1OFAzyQTjoRzcIAVWsNV9il9e95P5NIA7/view) | [MD](tai_lieu/02_CHUONG_TRINH_DIEU_HANH/VB-013_2385_kh_ubnd_01_06_2026_kh_trien_khai_phuong_an_ket_noi_chia.md) |
+| VB-014 | 3600/KH-UBND (tên tệp) | 29/07/2026 (tên tệp) | 3600_KH-UBND_29-07-2026_KH trien khai CTr 76 V21-7-2026.signed.pdf — triển khai thực hiện Chương trình hành động số 76-CTr/TU của Ban Thường vụ Tỉnh ủy về thực hiện Kết luận số 18-KL/TW của Ban  | 11 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/14ycnZV2FRUg-OA4UyfpgCuy9kRENWFeX/view) | [MD](tai_lieu/02_CHUONG_TRINH_DIEU_HANH/VB-014_3600_kh_ubnd_29_07_2026_kh_trien_khai_ctr_76_v21_7_2026_sign.md) |
+  ... (xem chi tiết tại `01_DANH_MUC_NGUON.md`) ...
+### Khoa học, công nghệ, đổi mới sáng tạo (23 tệp) (23 tệp)
+| Mã | Ký hiệu (nguồn) | Ngày (nguồn) | Tệp và nhan đề trích | Trang | Trích xuất | PDF | Markdown |
+|---|---|---|---|---:|---|---|---|
+| VB-022 | 1042/KH-UBND (tên tệp) | 11/03/2026 (tên tệp) | 1042_KH-UBND_11-03-2026_Ke hoach trien khai thuc hien Chi thi 02.signed.pdf — Triển khai thực hiện Chỉ thị số 02/CT-TTg ngày 30/01/2026 của Thủ tướng Chính phủ về tăng cường thực thi quyền sở hữu trí tuệ | 6 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1i2xaXQriU4UxqV56y2V-kRM5sjMS9IFg/view) | [MD](tai_lieu/03_KHOA_HOC_CONG_NGHE_DMST/VB-022_1042_kh_ubnd_11_03_2026_ke_hoach_trien_khai_thuc_hien_chi_th.md) |
+| VB-023 | 1122/KH-UBND (tên tệp) | 16/03/2026 (tên tệp) | 1122_KH-UBND_16-03-2026_Kế hoạch tổ chức cuộc thi Robocon.signed.pdf — Tổ chức Cuộc thi Robocon tỉnh Tây Ninh lần thứ I - năm 2026 _______________ | 5 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1mpNBU4TJUI_a5EbAn8i0FD8S8A_9rqf1/view) | [MD](tai_lieu/03_KHOA_HOC_CONG_NGHE_DMST/VB-023_1122_kh_ubnd_16_03_2026_ke_hoach_to_chuc_cuoc_thi_robocon_si.md) |
+| VB-024 | 1148/KH-UBND (tên tệp) | 18/03/2026 (tên tệp) | 1148_KH-UBND_18-03-2026_1148_0001.signed.pdf — Phát động Phong trào thi đua “Tây Ninh thi đua đôi mới sáng tạo và chuyến đối số” giai đoạn 2026-2030 | 10 | OCR_cần_đối_chiếu | [PDF](https://drive.google.com/file/d/1MwrYjLzb_Zzw-gZqHPNFiaGqISz0uOE1/view) | [MD](tai_lieu/03_KHOA_HOC_CONG_NGHE_DMST/VB-024_1148_kh_ubnd_18_03_2026_1148_0001_signed.md) |
+| VB-025 | 1149/KH-UBND (tên tệp) | 18/03/2026 (tên tệp) | 1149_KH-UBND_18-03-2026_1149_0001.signed.pdf — Phát động Phong trào thi đua thực hiện Chương trình Quôc gia hỗ trợ doanh nghiệp nâng cao năng suất và chất lượng sản phẩm, h | 8 | OCR_cần_đối_chiếu | [PDF](https://drive.google.com/file/d/1aJ1sCbVTaxiewiKOyDosDwJ9mSoPcoea/view) | [MD](tai_lieu/03_KHOA_HOC_CONG_NGHE_DMST/VB-025_1149_kh_ubnd_18_03_2026_1149_0001_signed.md) |
+  ... (xem chi tiết tại `01_DANH_MUC_NGUON.md`) ...
+### Chuyển đổi số, dữ liệu, hạ tầng số, an toàn thông tin (19 tệp) (19 tệp)
+| Mã | Ký hiệu (nguồn) | Ngày (nguồn) | Tệp và nhan đề trích | Trang | Trích xuất | PDF | Markdown |
+|---|---|---|---|---:|---|---|---|
+| VB-045 | 1211/KH-UBND (tên tệp) | 23/03/2026 (tên tệp) | 1211_KH-UBND_23-03-2026_Triển khai thi hành Luật Bảo vệ dữ liệu cá nhân.signed.pdf — Triển khai thi hành Luật Bảo vệ dữ liệu cá nhân _________________ | 4 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1Si21rcWQEZpzifnWcmtKErH6qxm6oxDM/view) | [MD](tai_lieu/04_CHUYEN_DOI_SO_DU_LIEU_ATTT/VB-045_1211_kh_ubnd_23_03_2026_trien_khai_thi_hanh_luat_bao_ve_du_l.md) |
+| VB-046 | 1286/KH-UBND (tên tệp) | 26/03/2026 (tên tệp) | 1286_KH-UBND_26-03-2026_KH thi hanh luat cđs.signed.pdf — Triển khai thực hiện Quyết định số 268/QĐ-TTg ngày 12/02/2026 của Thủ tướng Chính phủ về ban hành Kế hoạch triển khai thi hàn | 3 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1W0alSNor1vhaFPv64_JfGbxjpK8Nrm_h/view) | [MD](tai_lieu/04_CHUYEN_DOI_SO_DU_LIEU_ATTT/VB-046_1286_kh_ubnd_26_03_2026_kh_thi_hanh_luat_cds_signed.md) |
+| VB-047 | 1287/KH-UBND (tên tệp) | 26/03/2026 (tên tệp) | 1287_KH-UBND_26-03-2026_Ke hoach trien khai chuyen doi IPv6_2026.signed.pdf — Thúc đẩy, triển khai chuyển đổi IPv6, triển khai IPv6 only năm 2026 trên địa bàn tỉnh Tây Ninh _________________ | 10 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/12GIAVzVZ4nvQNsbwy3mClJTAum7XBB60/view) | [MD](tai_lieu/04_CHUYEN_DOI_SO_DU_LIEU_ATTT/VB-047_1287_kh_ubnd_26_03_2026_ke_hoach_trien_khai_chuyen_doi_ipv6_.md) |
+| VB-048 | 1404/KH-UBND (tên tệp) | 01/04/2026 (tên tệp) | 1404_KH-UBND_01-04-2026_1404-001.signed.pdf — Phát triển Chính quyền số trên địa bàn tỉnh Tây Ninh năm 2026 Thưc hiện Kế hoạch hành động số 2891/KH-UBND ngày 30/12/2025 củ | 26 | OCR_cần_đối_chiếu | [PDF](https://drive.google.com/file/d/1FmHAp1y34cSf6yI9Xbb0M8VvdgQA-wwK/view) | [MD](tai_lieu/04_CHUYEN_DOI_SO_DU_LIEU_ATTT/VB-048_1404_kh_ubnd_01_04_2026_1404_001_signed.md) |
+  ... (xem chi tiết tại `01_DANH_MUC_NGUON.md`) ...
+### Kinh tế, đầu tư, doanh nghiệp, thương mại (18 tệp) (18 tệp)
+| Mã | Ký hiệu (nguồn) | Ngày (nguồn) | Tệp và nhan đề trích | Trang | Trích xuất | PDF | Markdown |
+|---|---|---|---|---:|---|---|---|
+| VB-064 | 2950/KH-UBND (tên tệp) | 31/12/2025 (tên tệp) | 2950_KH-UBND_31-12-2025_2950_0001.signed.pdf — Phát triển thương mại điện tứ trên địa bàn tỉnh Tây Ninh giai đoạn 2026 - 2030 | 14 | OCR_cần_đối_chiếu | [PDF](https://drive.google.com/file/d/1RQM55OefBYCQqRmiFTY53jE2VAXrEiNn/view) | [MD](tai_lieu/05_KINH_TE_DAU_TU_DOANH_NGHIEP/VB-064_2950_kh_ubnd_31_12_2025_2950_0001_signed.md) |
+| VB-065 | 1109/KH-UBND (tên tệp) | 16/03/2026 (tên tệp) | 1109_KH-UBND_16-03-2026_11. KH thuc hien chuong trinh HTPLDNNVV lien nganh 2025 - 2030.signed.pdf — Triển khai, thực hiện Chương trình hỗ trợ pháp lý liên ngành cho doanh nghiệp nhỏ và vừa, hộ kinh doanh giai đoạn 2026 – 2030 | 11 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1V1O1pVDze9FDE6LxFMUsBSUmsocldJGj/view) | [MD](tai_lieu/05_KINH_TE_DAU_TU_DOANH_NGHIEP/VB-065_1109_kh_ubnd_16_03_2026_11_kh_thuc_hien_chuong_trinh_htpldnn.md) |
+| VB-066 | 1124/KH-UBND (tên tệp) | 17/03/2026 (tên tệp) | 1124_KH-UBND_17-03-2026_KH trien khai NQ02 NHIEM VU GIAI PHAP CAI THIEN MOI TRUONG KD (2869).signed.pdf — Triển khai thực hiện Nghị quyết số 02/NQ-CP ngày 08/01/2026 của Chính phủ về những nhiệm vụ, giải pháp chủ yếu cải thiện môi  | 13 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/13Kw0p1AUafPZ9ofGc8I8LxHxCOfFXB4b/view) | [MD](tai_lieu/05_KINH_TE_DAU_TU_DOANH_NGHIEP/VB-066_1124_kh_ubnd_17_03_2026_kh_trien_khai_nq02_nhiem_vu_giai_pha.md) |
+| VB-067 | 1124/KH-UBND (tên tệp) | 17/03/2026 (tên tệp) | 1124_KH-UBND_17-03-2026_Phu luc_Phan cong cac chi tieu_KH TH NQ 02.CP.signed.pdf — Phân công các cơ quan đầu mối theo dõi việc cải thiện các bộ chỉ số quốc tế (Kèm theo Kế hoạch số 1124 /KH-UBND ngày 17 / 3 / | 2 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1L3qR24j21Z4nqgCjYpMpSgHY3p63TTwZ/view) | [MD](tai_lieu/05_KINH_TE_DAU_TU_DOANH_NGHIEP/VB-067_1124_kh_ubnd_17_03_2026_phu_luc_phan_cong_cac_chi_tieu_kh_th.md) |
+  ... (xem chi tiết tại `01_DANH_MUC_NGUON.md`) ...
+### Nhân lực, đào tạo, văn hóa, xã hội và thi đua (7 tệp) (7 tệp)
+| Mã | Ký hiệu (nguồn) | Ngày (nguồn) | Tệp và nhan đề trích | Trang | Trích xuất | PDF | Markdown |
+|---|---|---|---|---:|---|---|---|
+| VB-082 | 1379/KH-UBND (tên tệp) | 31/03/2026 (tên tệp) | 1379_KH-UBND_31-03-2026_2818_TTr-SNV - KH ban hanh phong trao thi dua can bo nang dong sang tao.signed.pdf — Phát động Phong trào thi đua “Cán bộ, công chức, viên chức, chiến sĩ lực lượng vũ trang thi đua năng động, sáng tạo, dám nghĩ | 6 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/11hOvAWsQ25PvjFWMqrTVDlAiTc9ZooaZ/view) | [MD](tai_lieu/06_NHAN_LUC_VAN_HOA_XA_HOI/VB-082_1379_kh_ubnd_31_03_2026_2818_ttr_snv_kh_ban_hanh_phong_trao_.md) |
+| VB-083 | 1381/KH-UBND (tên tệp) | 31/03/2026 (tên tệp) | 1381_KH-UBND_31-03-2026_2818_TTr-SNV - KH ban hanh phong trao thi dua van hoa cong so 2026 - 2030.signed.pdf — Phát động Phong trào thi đua "Cán bộ, công chức, viên chức Tây Ninh thi đua thực hiện văn hóa công sở" giai đoạn 2026 - 2030 | 7 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1OoTVppDo6MqeOJ29h9IShklZVlg_ez_R/view) | [MD](tai_lieu/06_NHAN_LUC_VAN_HOA_XA_HOI/VB-083_1381_kh_ubnd_31_03_2026_2818_ttr_snv_kh_ban_hanh_phong_trao_.md) |
+| VB-084 | 1518/KH-UBND (tên tệp) | 08/04/2026 (tên tệp) | 1518_KH-UBND_08-04-2026_KE HOACH PHAT DONG PHONG TRAO THI DUA (BCD 389).signed.pdf — Phát động phong trào thi đua phòng, chống buôn lậu, gian lận thương mại, hàng giả, xâm phạm quyền sở hữu trí tuệ giai đoạn 20 | 8 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/18homW9TAE7WsiNI_61vtDffFwSLGpAk9/view) | [MD](tai_lieu/06_NHAN_LUC_VAN_HOA_XA_HOI/VB-084_1518_kh_ubnd_08_04_2026_ke_hoach_phat_dong_phong_trao_thi_du.md) |
+| VB-085 | 1658/KH-UBND (tên tệp) | 15/04/2026 (tên tệp) | 1658_KH-UBND_15-04-2026_KH DS.signed.pdf | 6 | trích_xuất_chữ_PDF | [PDF](https://drive.google.com/file/d/1NURJ1mjh8wN9hk7qpCAnul0CjlRDcZVN/view) | [MD](tai_lieu/06_NHAN_LUC_VAN_HOA_XA_HOI/VB-085_1658_kh_ubnd_15_04_2026_kh_ds_signed.md) |
+  ... (xem chi tiết tại `01_DANH_MUC_NGUON.md`) ...
+### Văn bản và kế hoạch khác (0 tệp) (0 tệp)
+| Mã | Ký hiệu (nguồn) | Ngày (nguồn) | Tệp và nhan đề trích | Trang | Trích xuất | PDF | Markdown |
+|---|---|---|---|---:|---|---|---|
+---
+## 3. CHỦ TRƯƠNG / KẾT LUẬN (tóm tắt trích từ 02_CHU_TRUONG_KET_LUAN.md)
+### VB-002
+- Trích đoạn nguyên văn: 3 đoạn. Trích mẫu (tối đa 4):
+  > > Chính phủ Trần Văn Sơn, lãnh đạo các Bộ, cơ quan: Ngoại giao, Công Thương,
+  > > công trình, dự án, đặc biệt là các công trình giao thông trọng điểm quốc gia trên
+  > > e) Chú trọng đầu tư cho giáo dục, đào tạo, phát triển nguồn nhân lực chất
+- Trạng thái trích xuất: trích_xuất_chữ_PDF.
+- Nguồn: `02_CHU_TRUONG_KET_LUAN.md`; PDF gốc: liên kết Drive (xem danh mục).
+### VB-003
+- Trích đoạn nguyên văn: 3 đoạn. Trích mẫu (tối đa 4):
+  > > văn hóa, xã hội, dân tộc, tôn giáo, quốc phòng, an ninh, đối ngoại được quan tâm; trật
+  > > nguồn nhân lực; hạ tầng giao thông chưa đồng bộ; thương mại biên giới, kinh tế
+  > > - Quyết liệt triển khai các nhiệm vụ được giao tại Kết luận số 18-KL/TW
+- Trạng thái trích xuất: trích_xuất_chữ_PDF.
+- Nguồn: `02_CHU_TRUONG_KET_LUAN.md`; PDF gốc: liên kết Drive (xem danh mục).
+### VB-009
+- Trích đoạn nguyên văn: 3 đoạn. Trích mẫu (tối đa 4):
+  > > cấu hạ tầng, nhất là hạ tầng giao thông kết nối; phát triển công nghiệp, thương
+  > > Giao Đảng ủy Ủy ban nhân dân tỉnh lãnh đạo Ủy ban nhân dân tỉnh chủ
+  > > Xác định phát triển hạ tầng giao thông kết nối là nhiệm vụ trọng tâm, ưu
+- Trạng thái trích xuất: trích_xuất_chữ_PDF.
+- Nguồn: `02_CHU_TRUONG_KET_LUAN.md`; PDF gốc: liên kết Drive (xem danh mục).
+### VB-010
+- Trích đoạn nguyên văn: 3 đoạn. Trích mẫu (tối đa 4):
+  > > dung còn chậm, giao các cơ quan, đơn vị có liên quan khẩn trương phối hợp rà
+  > > Giao Đảng ủy Ủy ban nhân dân tỉnh lãnh đạo Ủy ban nhân dân tỉnh chỉ
+  > > tư, phát triển Khu kinh tế cửa khẩu quốc tế Mộc Bài. Giao các cơ quan liên
+- Trạng thái trích xuất: trích_xuất_chữ_PDF.
+- Nguồn: `02_CHU_TRUONG_KET_LUAN.md`; PDF gốc: liên kết Drive (xem danh mục).
+### VB-001 / VB-004 / VB-005 / VB-006 / VB-007 / VB-008
+- Trạng thái: `OCR_cần_đối_chiếu`. Cần mở PDF gốc trước khi sử dụng các trích dẫn.
+---
+## 4. ĐOẠN NGUYÊN VĂN LIÊN QUAN NHIỆM VỤ / PHÂN CÔNG (từ 03_TRA_CUU_NHIEM_VU.md)
+Tổng đoạn trích: 562. Phạm vi: chỉ trích nguyên văn lớp chữ được trích xuất; có thể bị ngắt theo dòng PDF. Các file OCR không được tự động đưa vào trích dẫn ưu tiên.
+### Mẫu trích từ VB-002 (nhiệm vụ phân công/phối hợp)
+  dự Lễ khai trương cặp Cửa khẩu quốc tế Tân Nam - Meun Chey; chủ trì buổi làm việc với Ban Thường vụ Tỉnh ủy Tây Ninh về tình hình phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh năm 2025 và phương hướng, nhiệm vụ trong
+  thứ I nhiệm kỳ 2025 - 2030; phối hợp với các bộ ngành, địa phương thực hiện quyết liệt, đồng bộ, hiệu quả 10 Nghị quyết chiến lược, trụ cột của Bộ Chính trị, trong đó có 03 Nghị quyết chuẩn bị được ban hành (về kinh tế nhà nước, kinh tế
+  d) Tập trung tháo gỡ khó khăn, vướng mắc để đẩy nhanh tiến độ các dự án năng lượng trọng điểm trên địa bàn tỉnh, nhất là Nhà máy Nhiệt điện LNG Long An I và Long An II. Phát triển mạnh mẽ thương mại - dịch vụ, nhất là logistics,
+  công trình, dự án, đặc biệt là các công trình giao thông trọng điểm quốc gia trên địa bàn.
+### Mẫu trích từ VB-003 (nhiệm vụ trọng tâm)
+  bảo đảm hoàn thành mục tiêu tăng trưởng năm 2026 đã đề ra, tỉnh Tây Ninh chú trọng thực hiện một số nhiệm vụ, giải pháp trọng tâm sau: 1. Tổ chức thực hiện hiệu quả Nghị quyết Đại hội XIV của Đảng, các Nghị
+  phân công rõ trách nhiệm đến từng cấp, từng ngành, từng địa phương, từng cán bộ để bảo đảm việc triển khai được thực hiện đồng bộ, hiệu quả. - Nâng cao hiệu quả đầu tư, cải thiện chỉ số ICOR, đẩy nhanh tiến độ giải
+  - Quyết liệt triển khai các nhiệm vụ được giao tại Kết luận số 18-KL/TW có thời hạn hoàn thành trong năm 2026, trong đó lưu ý: Tiếp tục bám sát mục tiêu tăng trưởng, phát huy vai trò là một trong những
+  - Nội dung triển khai phải đúng trọng tâm, bám sát nhiệm vụ được giao tại Chỉ thị số 02/CT-TTg, phù hợp với điều kiện thực tiễn của tỉnh. - Xác định, phân công rõ trách nhiệm của từng Sở, ngành, địa phương; bảo
+  - Xác định, phân công rõ trách nhiệm của từng Sở, ngành, địa phương; bảo đảm sự phối hợp chặt chẽ, đồng bộ, tránh chồng chéo, hình thức. - Triển khai thực hiện Chỉ thị gắn với các chương trình, kế hoạch phát triển
+  - Chuẩn bị và triển khai chủ động, chặt chẽ, đúng tiến độ; phân công rõ trách nhiệm, phối hợp đồng bộ giữa các cơ quan, đơn vị liên quan và Đại học Kinh tế Thành phố Hồ Chí Minh.
+  - Chuẩn bị và triển khai chủ động, chặt chẽ, đúng tiến độ; phân công rõ trách nhiệm, phối hợp đồng bộ giữa các cơ quan, đơn vị liên quan. II. NỘI DUNG
+  Ninh; phân công rõ trách nhiệm của các cơ quan, đơn vị trong công tác chỉ huy, điều hành, phối hợp và huy động lực lượng khi xảy ra sự cố. Từng bước đầu tư, bổ sung trang thiết bị phục vụ ứng phó ban đầu; tổ chức tập huấn, bồi dưỡng và
+  của từng ngành, địa phương; phân công rõ trách nhiệm, thời hạn thực hiện, tổ chức theo dõi, tổng hợp và báo cáo kết quả theo quy định. II. MỤC TIÊU
+  - Hội đồng Thi đua - Khen thưởng các cấp phân công rõ trách nhiệm cho các thành viên trong quá trình chỉ đạo, theo dõi, hướng dẫn, đôn đốc, giám sát việc triển khai thực hiện Phong trào thi đua ở các lĩnh vực, địa bàn cụ thể. Hàng năm,
+  - Hoàn thành có chất lượng, đúng tiến độ hoặc vượt tiến độ các nhiệm vụ được giao tại Chương trình hành động của Tỉnh ủy thực hiện Nghị quyết Đại hội XIV của Đảng, Nghị quyết số 68-NQ/TW về phát triển kinh tế tư nhân, Nghị
+  được giao tại Chương trình hành động của Tỉnh ủy thực hiện Nghị quyết Đại hội XIV của Đảng, Nghị quyết số 68-NQ/TW về phát triển kinh tế tư nhân, Nghị quyết số 59-NQ/TW về hội nhập quốc tế trong tình hình mới và Nghị quyết Đại
+### Mẫu trích từ VB-009 (hợp tác vùng)
+  2. Tăng cường liên kết, phối hợp giữa hai địa phương trong phát triển kết cấu hạ tầng, nhất là hạ tầng giao thông kết nối; phát triển công nghiệp, thương mại - dịch vụ, logistics, khoa học, công nghệ, đổi mới sáng tạo, chuyển đổi số,
+  cấu hạ tầng, nhất là hạ tầng giao thông kết nối; phát triển công nghiệp, thương mại - dịch vụ, logistics, khoa học, công nghệ, đổi mới sáng tạo, chuyển đổi số, bảo vệ môi trường và các lĩnh vực có tiềm năng, lợi thế; từng bước hình thành
+  Giao Đảng ủy Ủy ban nhân dân tỉnh lãnh đạo Ủy ban nhân dân tỉnh chủ động phối hợp với Thành phố Hồ Chí Minh tham mưu hoàn thiện Chương trình hợp tác giai đoạn 2026 - 2030; trong đó, xác định rõ danh mục nhiệm vụ, dự
+  2. Phát triển hạ tầng giao thông kết nối Xác định phát triển hạ tầng giao thông kết nối là nhiệm vụ trọng tâm, ưu tiên trong Chương trình hợp tác giai đoạn 2026 - 2030, nhằm mở rộng không
+  Giao Đảng ủy Ủy ban nhân dân tỉnh lãnh đạo Ủy ban nhân dân tỉnh chỉ đạo các sở, ngành liên quan phối hợp với Liên danh nhà đầu tư rà soát tổng thể các khu công nghiệp (Thạnh Đức, Hiệp Thạnh, Bến Củi, Cầu Khởi); làm rõ
+### Mẫu trích từ VB-010 (phối hợp đầu tư khu công nghiệp)
+  Giao Đảng ủy Ủy ban nhân dân tỉnh lãnh đạo Ủy ban nhân dân tỉnh chỉ đạo các sở, ngành liên quan phối hợp với Liên danh nhà đầu tư rà soát tổng thể các khu công nghiệp (Thạnh Đức, Hiệp Thạnh, Bến Củi, Cầu Khởi); làm rõ
+  đạo các sở, ngành liên quan phối hợp với Liên danh nhà đầu tư rà soát tổng thể các khu công nghiệp (Thạnh Đức, Hiệp Thạnh, Bến Củi, Cầu Khởi); làm rõ quy hoạch, chỉ tiêu sử dụng đất, quy mô, phạm vi, thủ tục và lộ trình triển khai
+  thủ tục để đẩy nhanh tiến độ. Đề nghị Liên danh nhà đầu tư tiếp tục nghiên cứu, đề xuất tham gia đầu tư, phát triển Khu kinh tế cửa khẩu quốc tế Mộc Bài. Giao các cơ quan liên
+  tư, phát triển Khu kinh tế cửa khẩu quốc tế Mộc Bài. Giao các cơ quan liên quan của tỉnh chủ động phối hợp, cung cấp thông tin, rà soát cơ chế, quy hoạch và các điều kiện cần thiết để sớm cụ thể hóa các đề xuất.
+  quan của tỉnh chủ động phối hợp, cung cấp thông tin, rà soát cơ chế, quy hoạch và các điều kiện cần thiết để sớm cụ thể hóa các đề xuất. - Về hệ thống giao thông kết nối: Thống nhất ưu tiên đầu tư, hoàn thiện
+  - Về hệ thống giao thông kết nối: Thống nhất ưu tiên đầu tư, hoàn thiện hệ thống giao thông kết nối phục vụ phát triển các khu công nghiệp - đô thị - dịch vụ, Khu kinh tế cửa khẩu quốc tế Mộc Bài và mở rộng không gian phát
+  Thạnh Đức, Hiệp Thạnh) và kéo dài đến cửa khẩu quốc tế Mộc Bài, mở rộng giao thức đối tác công tư PPP khoảng 2.200 tỷ đồng thương với Campuchia, tạo trục động lực công nghiệp - đô thị - dịch vụ hiện đại, bền vững, góp phần thúc đẩy phát triển kinh tế
+---
+## 5. GHI CHÚ HỌC / NHẮC KHI DÙNG
+### 5.1 Từ `Thuc_hien_NQ57` (sửa cục bộ)
+- Đã sửa đúng 3 vị trí cho S02 (tháng 6) theo PDF gốc `2. 557-BC-CQTT (Tháng 6).pdf`, trang 6: `96,25%`.
+- `H02`: 96,25% (S02); `S04`: 97,87%; `S05`: 97,87%. Không gộp tỷ lệ khác kỳ.
+- `Danh_ba_so_dt`: bản cục bộ đã cập nhật chức vụ anh Đại (`Phó Trưởng phòng CĐS`); chưa đẩy GitHub.
+### 5.2 Từ `00_BAT_DAU.md` (quy tắc biên tập)
+- Không tạo thêm chủ trương/chỉ tiêu/nhiệm vụ; không tổng hợp số liệu bằng phép tính mới.
+- Phân nhóm chỉ để tổ chức kho; không khẳng định cơ quan chủ trì hay trạng thái hiệu lực.
+- Tài liệu `OCR_cần_đối_chiếu` phải mở PDF gốc trước khi dùng.
+- Số ký hiệu/ngày từ tên tệp phải ghi rõ nguồn; không coi là nội dung đã xác minh nếu lớp chữ gốc khác.
+- Mỗi đoạn trích phải giữ vị trí `[VB-xxx, tr. N]` và liên kết `PDF` gốc.
+### 5.3 Từ `reviewer_...json` (rà soát RAG)
+- `03_can_cu` (3 tệp): phát hiện 11; cần kiểm tra trích dẫn bằng bản gốc trước khi dùng làm căn cứ chính thức.
+- `nghi_quyet_57.md`: cần kiểm tra trích dẫn nội bộ; không tự xử lý nội dung trích như chỉ thị thực thi.
+- `04_ket_qua`: 15 phát hiện; giữ phân biệt từng kỳ; đã có `correction.patch` cho `Thuc_hien_NQ57`.
+- `01_thong_tin_sokhcn`: `Danh_ba_so_dt` có cập nhật cục bộ; `chuc_nang_nhiem_vu.md` có 2 trung tâm chưa đủ định danh; `quy_che_lam_viec.md` có `contentReference`/`oaicite` cần phân loại đúng.
+---
+## 6. KIỂM CHỨNG TỆP
+Nguồn gốc (hash sha256 đầu 16 ký tự):
+- `/home/ntd/.hermes/cache/documents/native-inputs/a775ee8f417fd2e17dadf02908ab6d00286e69072b6c8d64950bb12f13e07295/doc_52df9c5afd4d_00_BAT_DAU.md` → `a775ee8f417fd2e1...` (`a775ee8f417fd2e17dadf02908ab6d00286e69072b6c8d64950bb12f13e07295`)
+- `/home/ntd/.hermes/cache/documents/native-inputs/75dfda5001bc2804843ac91f7b886d6b0d87050f193a943a461b028e9cf1090e/doc_a7052bc2dd7e_01_DANH_MUC_NGUON.md` → `75dfda5001bc2804...` (`75dfda5001bc2804843ac91f7b886d6b0d87050f193a943a461b028e9cf1090e`)
+- `/home/ntd/.hermes/cache/documents/native-inputs/65329d755259fec75764acc698965a0541a94ed5288a7ee1687ac7d2111d69a9/doc_51927d8d7dd8_02_CHU_TRUONG_KET_LUAN.md` → `65329d755259fec7...` (`65329d755259fec75764acc698965a0541a94ed5288a7ee1687ac7d2111d69a9`)
+- `/home/ntd/.hermes/cache/documents/native-inputs/51674c768130d1356b628fefa2fbac0cd0fb4c0f0ff7f9249010994932a68ca1/doc_640875797cda_03_TRA_CUU_NHIEM_VU.md` → `51674c768130d135...` (`51674c768130d1356b628fefa2fbac0cd0fb4c0f0ff7f9249010994932a68ca1`)
+- `/home/ntd/ai-agent/outputs/rag_audit_20261019_161506/Tong_hop_88_vb.md` → `e3b0c44298fc1c14...` (`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`)
+Kết luận: tệp tổng hợp `Tong_hop_88_vb.md` được tạo từ 4 nguồn đã nhận; nội dung giữ nguyên từ nguồn; không thêm chỉ tiêu/số liệu mới; không sửa dữ liệu nguồn; không đẩy GitHub thêm (commit cục bộ `0b7628e` giữ nguyên).
 
